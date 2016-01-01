@@ -1,6 +1,6 @@
 ---
 title: Home
-description: We bring stories to life, creating and crafting them into articles, books and websites that immerse and inspire.
+description: We craft long-form stories that immerse and inspire. We help impact organisations grow their stature as change makers and thought leaders. And we help publishers manage their book-making, lowering their costs and freeing their time.
 style: home
 ---
 
