@@ -1,0 +1,249 @@
+---
+# Styles for fireandlion.com
+---
+
+@charset "utf-8";
+
+/*
+Styles for: http://fireandlion.com/
+Author: Arthur Attwell
+Author URI: http://arthurattwell.com/
+Description: Fire and Lion website styles
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: fire and lion
+*/
+
+// Fonts
+$font-main: "Crimson Text", serif;
+$font-secondary: "Montserrat", sans-serif;
+
+// Palette
+$dark: #000000;
+$mid: #cccccc;
+$light: #ffffff;
+
+// Structure
+
+html, body {
+	overflow-x: hidden; // Prevents horizontal scrolling
+}
+body {
+	font-family: $font-main;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+	line-height: 140%;
+	background-color: $light;
+}
+.wrapper {
+	margin: 0 auto;
+}
+
+// Masthead
+
+.masthead {
+	overflow-x: hidden; // Prevents horizontal scrolling
+	position: relative;
+	width: 300%;
+	left: -100%;
+	background-color: $dark;
+	height: 8em;
+	text-align: center;
+	padding: 1em 0 0 0;
+	box-shadow: 0 0.05em 0.2em $dark;
+}
+.masthead img {
+	width: 10em;
+}
+// On/Off
+.masthead { display: none; }
+
+
+// Sidebar
+
+.sidebar {
+	float: left;
+	position: fixed;
+	width: 10em;
+	top: 0;
+	height: 100vh;
+	background-color: $dark;
+	padding: 2em;
+	color: $light;
+	box-shadow: 0 0.05em 0.2em $dark;
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 0.7em;
+		letter-spacing: 0.075em;	
+		}
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	a:hover {
+		color: $mid;
+	}
+	.logo {
+		margin: 0.1em 0 2em 0;
+	}
+}
+
+
+// Content
+
+.content {
+	margin: 0;
+	padding: 0 1em 0 16em;
+	max-width: 30em;
+}
+
+
+// Footer
+
+.footer {
+	text-align: center;
+}
+.footer img {
+	width: 5em;
+	margin: 1em auto;
+}
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	// text-align: center;
+	font-family: $font-secondary;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	line-height: 110%;
+}
+h1 {
+	font-size: 1.5em;
+	margin: 5em 0 1em 0;
+}
+h2 {
+	font-size: 1em;
+	margin: 3em 0 1em 0;
+}
+h3, h4, h5, h6 {
+	font-family: $font-main;
+	font-size: 1.2em;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+}
+p a, ol a, ul a {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 1px dashed $dark;
+}
+blockquote {
+	border-left: 5px solid $dark;
+	margin:  1em 1em 1em 0;
+	padding: 0 0 0 1em;
+}
+blockquote p, blockquote ol, blockquote ul {
+	font-style: italic;
+}
+strong {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	letter-spacing: 0.075em;
+	line-height: 100%;
+}
+
+// Buttons
+
+a.button {
+	background-color: $dark;
+	padding: 0.4em 0.5em;
+	margin: 0 0.5em 0.5em 0;
+	border-radius: 0.2em;
+	display: inline-block;
+	color: $light;
+	box-shadow: 0 0.05em 0.1em $dark;
+}
+a.button:hover {
+	box-shadow: 0 0.05em 0.3em $dark;
+}
+
+// Embedded iframes
+
+.embed {
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	margin: 0 0 1em 0;
+}
+.embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// Tables
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+tr {
+	border-top: 1px solid $mid;
+	border-bottom: 1px solid $mid;
+}
+
+// Narrow screens
+
+@media only screen 
+	and (max-width : 750px) {
+		.sidebar {
+			float: none;
+			position: static;
+			width: 100%;
+			height: auto;
+			padding: 0.5em;
+			ul {
+				margin: 0.5em;
+				max-width: 90%;
+			}
+			li {
+				display: inline-block;
+			}
+			li:after {
+				content: " \2022";
+			}
+			li:last-of-type:after {
+				content: "";
+			}
+			li:first-of-type:before {
+				content: "Fire and Lion \2022  ";
+				font-family: $font-secondary;
+			}
+			.logo {
+				margin: 0.3em;
+			}
+			.logo img {
+				width: 6em;
+				display: none;
+			}
+		}
+		.content {
+			margin: 0;
+			padding: 0.5em;
+		}
+		h1 {
+			margin: 1em 0 1em 0;
+		}
+}
