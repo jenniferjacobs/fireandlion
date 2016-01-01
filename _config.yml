@@ -3,7 +3,7 @@ description: "The art of storytelling and design"
 
 url: http://localhost:4000
 baseurl: /fireandlion
-liveurl: https://fireandlion.com
+liveurl: http://fireandlion.com
 
 paginate: 10
 
