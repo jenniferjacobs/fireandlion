@@ -35,6 +35,7 @@ $light: #ffffff;
 
 html, body {
 	overflow-x: hidden; // Prevents horizontal scrolling
+	width: 100%;
 }
 body {
 	font-family: $font-main;
@@ -56,13 +57,10 @@ body {
 	width: 300%;
 	left: -100%;
 	background-color: $dark;
-	height: 8em;
+	height: 2em;
 	text-align: center;
 	padding: 1em 0 0 0;
 	box-shadow: 0 0.05em 0.2em $dark;
-}
-.masthead img {
-	width: 10em;
 }
 // On/Off
 .masthead { display: none; }
@@ -112,14 +110,7 @@ body {
 
 
 // Footer
-
-.footer {
-	text-align: center;
-}
-.footer img {
-	width: 5em;
-	margin: 1em auto;
-}
+// .footer {}
 
 // Typography
 
@@ -213,12 +204,17 @@ tr {
 
 // Narrow screens
 
+// THis for Windows (see https://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
+@viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+
 @media only screen 
 	and (max-width : 750px) {
 		.sidebar {
 			float: none;
 			position: static;
 			width: 100%;
+			overflow-x: hidden;
 			height: auto;
 			padding: 0.2em 0.5em 0.5em 0.5em;
 			ul {
