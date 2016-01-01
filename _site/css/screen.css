@@ -87,11 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.5em;
-  margin: 5em 0 0 0;
-  line-height: 100%; }
-
-h1 + p {
-  margin-top: 1.75em; }
+  margin: 5em 0 1.2em 0;
+  line-height: 95%; }
 
 h2 {
   font-size: 1em;
@@ -167,12 +164,13 @@ tr {
     position: static;
     width: 100%;
     height: auto;
-    padding: 0.5em; }
+    padding: 0.2em 0.5em 0.5em 0.5em; }
     .sidebar ul {
-      margin: 0.5em;
+      margin: 0em;
       max-width: 90%; }
-    .sidebar li {
-      display: inline-block; }
+      .sidebar ul li {
+        display: inline-block;
+        margin: 0; }
     .sidebar li:after {
       content: " \2022"; }
     .sidebar li:last-of-type:after {
@@ -181,9 +179,6 @@ tr {
       content: "Fire and Lion \2022  ";
       font-family: "Montserrat", sans-serif; }
     .sidebar .logo {
-      margin: 0.3em; }
-    .sidebar .logo img {
-      width: 6em;
       display: none; }
 
   .content {
@@ -191,4 +186,4 @@ tr {
     padding: 0.5em; }
 
   h1 {
-    margin: 1em 0 1em 0; } }
+    margin: 1em 0 0.5em 0; } }

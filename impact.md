@@ -5,7 +5,7 @@ description: We help impact organisations grow their stature as change makers an
 
 # Storytelling for impact
 
-**We help impact organisations grow** their stature as change makers and thought leaders, so they can attract committed donors and champions. 
+**We help impact organisations** grow their stature as change makers and thought leaders, so they can attract committed donors and champions. 
 
 > Your organisation has a rich history. You work on complex issues. Your team has years of experience. Only well-crafted, long-form stories can bottle this for others, and inspire their committment and understanding.
 

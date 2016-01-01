@@ -5,7 +5,7 @@ description: We help publishers manage their book-making, lowering their costs a
 
 # For book publishers
 
-**We free publishers to focus** on what matters most to them. We manage print and digital book production, promotional material and content preservation.
+**We free publishers** to focus on what matters most to them. We manage print and digital book production, promotional material and content preservation.
 
 > What do you want to spend more time on? Many publishers want to develop authors and run
 special projects. Do you spend a lot of time project-managing freelancers, generating marketing materials, and
