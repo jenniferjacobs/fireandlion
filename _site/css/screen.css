@@ -67,9 +67,7 @@ body {
 .content {
   margin: 0 0 0 14em;
   padding: 0 0 0 2em;
-  min-height: 100vh;
-  background-color: pink;
-  border: 5px solid bisque; }
+  min-height: 100vh; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
