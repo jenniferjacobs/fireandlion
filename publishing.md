@@ -20,7 +20,7 @@ We manage all your frontlist and backlist production from manuscript to finished
 
 At the same time, we'll produce all your default promotional material – such as info sheets, social media posts, press collateral and catalogues – and collate each book's basic metadata.
 
-## Ongoing production committment
+## Ongoing production commitment
 
 If you're ready to place five or more books with us per year, we can offer extra value:
 
