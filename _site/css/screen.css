@@ -154,7 +154,7 @@ tr {
   border-bottom: 1px solid #cccccc; }
 
 .content img {
-  max-width: 30em; }
+  max-width: 100%; }
 
 .content p.feature-image {
   max-width: calc(100% + 2em);
@@ -203,6 +203,8 @@ tr {
   .content {
     margin: 0;
     padding: 0.5em; }
+    .content p.feature-image {
+      margin: -1em; }
 
   h1 {
     margin: 1em 0 0.5em 0; } }
