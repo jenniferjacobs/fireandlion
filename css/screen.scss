@@ -83,8 +83,7 @@ body {
 		padding: 0;
 		margin: 0;
 		li {
-			@include smallcaps();
-			margin: 0 0 1.1em 0;
+			margin: 0;
 		}
 		}
 	a {
@@ -92,10 +91,10 @@ body {
 		text-decoration: none;
 	}
 	a:hover {
-		color: $mid;
+		border-bottom: 1px dashed #ffffff;
 	}
 	.logo {
-		margin: 0.1em 0 2em 0;
+		margin: 0.1em 0 1.5em 0;
 	}
 }
 
@@ -200,8 +199,8 @@ table {
 	border-collapse: collapse;
 }
 tr {
-	border-top: 1px solid $mid;
-	border-bottom: 1px solid $mid;
+	border-top: 1px dashed $dark;
+	border-bottom: 1px dashed $dark;
 }
 
 // Images
@@ -260,6 +259,9 @@ tr {
 			li:first-of-type:before {
 				content: "Fire and Lion \2022  ";
 				font-family: $font-secondary;
+				text-transform: uppercase;
+				font-size: 0.9em;
+				line-height: 100%;
 			}
 			.logo {
 				display: none;
