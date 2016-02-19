@@ -41,6 +41,6 @@ If you’re going to put all your eggs in our basket, you need to be sure you’
 * **A pleasure to work with**: a small team of local, experienced and friendly pros.
 * **Organised**: clear, sensible systems for version-control, storage and archiving.
 * **Transparent**: ask us anything, track project progress and access your files online, any time.
-* **Future proof**: our focus on open standards and open software mean less vendor lock in and greater flexibility to quickly repurpose your content for new platforms and experiments.
+* **Future proof**: our focus on open standards and open software mean less vendor lock in and greater flexibility to quickly repurpose your content for new platforms and experiments. [Read more here]({{site.baseurl}}/tech).
 
 [Get in touch.]({{site.baseurl}}/team)
