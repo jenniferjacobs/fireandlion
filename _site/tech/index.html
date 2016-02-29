@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<title>Fire and Lion: Book-production tech and ops</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<meta property="og:title" content="Fire and Lion: Book-production tech and ops" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://fireandlion.com/tech/" />
+	<meta property="og:image" content="http://fireandlion.com/images/fire-and-lion-avatar.png" />
+	<meta property="og:description" content="" />
+	<meta property="og:site_name" content="Fire and Lion" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" />
+	
+	<!--Montserrat bold and Crimson normal, italic, semibold -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Crimson+Text:400,400italic,600' rel='stylesheet' type='text/css'>
+	
+	<!--Google Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71347024-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+	<!-- Icons created with http://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/icons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/images/icons/manifest.json">
+	<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	
+</head>
+<body class="">
+<div class="wrapper">
+
+<div class="sidebar">
+	<div class="logo">
+		<a href="/"><img alt="Fire and Lion" src="/images/fire-and-lion-logo-white-on-black.gif" /></a>
+	</div>
+	<div class="nav-list">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/impact">Impact storytelling</a></li>
+			<li><a href="/publishing">Publishing services</a></li>
+			<li><a href="/team">Our team</a></li>
+		</ul>
+	</div>
+</div><!--.sidebar-->
+
+<div class="masthead">
+</div><!--.masthead-->
+
+<div class="content">
+<h1 id="book-production-technology">Book-production technology</h1>
+
+<p>Our clients’ technical staff often need to know exactly <em>how</em> we make their books. While we’re very experienced with traditional, InDesign-based workflows, we have also developed our own tools and processes, including an open-source digital-first workflow.</p>
+
+<h2 id="workflow">Workflow</h2>
+
+<p>Unless a design-heavy book calls for a traditional InDesign workflow, our standard process is:</p>
+
+<ol>
+  <li>Convert text to markdown and prepare images</li>
+  <li>Create CSS stylesheet(s) for each output format</li>
+  <li>Convert the markdown to HTML</li>
+  <li>Convert the HTML to output formats, e.g. print PDF, web PDF, epub, DocBook</li>
+  <li>Run validation/preflight checks as appropriate.</li>
+</ol>
+
+<p>As a framework for this, we use the open-source <a href="https://github.com/electricbookworks/electric-book-workflow">Electric Book Workflow</a>.</p>
+
+<h2 id="file-management">File management</h2>
+
+<p>We have three tools for managing files and projects, and we share these spaces with clients who’re willing and able (not all clients are web-happy enough to join us here):</p>
+
+<ol>
+  <li>
+    <p><em>File hosting</em>: We use <a href="https://www.dropbox.com/business/tour">Dropbox for Business</a>, which gives us world-class file-management features. We create a dedicated folder in which we deliver final output files to you. You get the link to that folder so that you can access and download from it at any time. Guard the link, since anyone with it can access the folder. (We can change the link if necessary.)</p>
+  </li>
+  <li>
+    <p><em>Source content and code</em>: We use <a href="https://github.com">GitHub</a> and/or <a href="http://bitbucket.org">Bitbucket</a> (depending on the nature of the project) for storage and version-control of markdown, HTML, and CSS. If you have an account on those services, we’ll give you read access to your repositories so you can always see and retrieve your master source files.</p>
+  </li>
+  <li>
+    <p><em>Project management</em>: We use <a href="http://trello.com">Trello</a> to keep track of projects. If you have a Trello account, let us know your username and we’ll add you to your board, where you can track project progress and collaborate.</p>
+  </li>
+</ol>
+
+<h2 id="pre-flight-checks">Pre-flight checks</h2>
+
+<p>Every client (or printer) has different requirements for preflight checks. If you have specific checks you want done, we can create a preflight profile for your books.</p>
+
+</div><!--.content-->
+
+<div class="footer">
+</div><!--.footer-->
+
+</div><!--.wrapper-->
+</body>
+</html>
