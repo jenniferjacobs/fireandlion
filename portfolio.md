@@ -14,9 +14,11 @@ title: Portfolio
 At Fire and Lion we believe that every book has a mission: that is, every story has the power and responsibility to change the world. That mission is clearest when we work with social-impact projects and organisations, like MyConstitution, Book Dash, Worldreader, Bettercare, and the More Books Campaign.
 
 {% for post in site.categories.social-impact %}
+<p class="portfolio-excerpt">
 <a href="{{ post.url }}" title="{{ post.title }}">
 <img src="../images/{{ post.image }}" alt="{{ post.title }}" class="thumbnail"></a>
-{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}" title="{{ post.title }}">Read more</a>.
+{{ post.excerpt | remove: '<p>' }} <a href="{{ post.url }}" title="{{ post.title }}">Read more</a>.
+</p>
 {% endfor %}
 
 ## Visual identity

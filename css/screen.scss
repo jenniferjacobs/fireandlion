@@ -95,6 +95,9 @@ body {
 	}
 	.logo {
 		margin: 0.1em 0 1.5em 0;
+		a:hover {
+			border: 0;
+		}
 	}
 }
 
@@ -236,6 +239,13 @@ img.thumbnail {
     margin: 0.3em 0.5em 0 0;
     background-color: $dark;
 	object-fit: cover;	
+}
+
+// Portfolio
+
+.portfolio-excerpt {
+	clear: both;
+	min-height: 6em;
 }
 
 // Narrow screens

@@ -59,6 +59,8 @@ body {
     border-bottom: 1px dashed #ffffff; }
   .sidebar .logo {
     margin: 0.1em 0 1.5em 0; }
+    .sidebar .logo a:hover {
+      border: 0; }
 
 .content {
   margin: 0 0 0 14em;
@@ -178,6 +180,10 @@ img.thumbnail {
   margin: 0.3em 0.5em 0 0;
   background-color: #000000;
   object-fit: cover; }
+
+.portfolio-excerpt {
+  clear: both;
+  min-height: 6em; }
 
 @viewport {
   width: device-width; }

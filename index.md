@@ -1,16 +1,11 @@
 ---
 title: Home
-description: We craft long-form stories that immerse and inspire. We help impact organisations grow their stature as change makers and thought leaders. And we help publishers manage their book-making, lowering their costs and freeing their time.
+description: We help publishers and impact organisations tell complex, powerful stories – most often as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
 style: home
 ---
 
 # Long-form storytelling and&nbsp;design
 
-**At Fire and Lion** we craft long-form stories that immerse and inspire. Then&nbsp;we help our clients take those stories to the world.
-
-We&nbsp;help [impact organisations]({{site.baseurl}}/impact) grow their stature as change makers and thought leaders, so that they can attract committed donors and champions. And we help [publishers]({{site.baseurl}}/publishing) manage their book-making, lowering their costs and&nbsp;freeing their time to focus on authors and special projects. 
-
-[Impact storytelling]({{site.baseurl}}/impact){:.button}
-[Publishing services]({{site.baseurl}}/publishing){:.button}
+We help publishers and impact organisations tell powerful stories, most often as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
 
 Contact [team@fireandlion.com](mailto:team@fireandlion.com).
