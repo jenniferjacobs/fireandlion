@@ -3,15 +3,14 @@ title: Portfolio
 ---
 
 # A selection of our work
+{:.no_toc}
 
-[Social impact](#social-impact)\\
-[Visual identity](#visual-identity)\\
-[Corporate publications](#corporate-publications)\\
-[Literature](#literature)
+* toc
+{:toc}
 
 ## Social impact
 
-At Fire and Lion we believe that every book has a mission: that is, every story has the power and responsibility to change the world. That mission is clearest when we work with social-impact projects and organisations, like MyConstitution, Book Dash, Worldreader, Bettercare, and the More Books Campaign.
+**At Fire and Lion** we believe that every book has a mission: that is, every story has the power and responsibility to change the world. That mission is clearest when we work with social-impact projects and organisations, like MyConstitution, Book Dash, Worldreader, Bettercare, and the More Books Campaign.
 
 {% for post in site.categories.social-impact %}
 <p class="portfolio-excerpt">

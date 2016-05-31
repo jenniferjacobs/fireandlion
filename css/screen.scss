@@ -14,6 +14,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: fire and lion
 */
 
+// Sizes
+$text-width: 30em;
+
 // Fonts
 $font-main: "Crimson Text", serif;
 $font-secondary: "Montserrat", sans-serif;
@@ -110,6 +113,12 @@ body {
     min-height: 100vh;
 }
 
+// Page TOCs
+
+#markdown-toc {
+	list-style-type: none;
+	padding: 0;
+}
 
 // Footer
 // .footer {}
@@ -121,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: 0.025em;
 	line-height: 110%;
-	max-width: 20em;
+	max-width: $text-width * 0.7;
 }
 h1 {
 	font-size: 1.5em;
@@ -139,17 +148,26 @@ h3, h4, h5, h6 {
 	text-transform: none;
 	letter-spacing: 0;
 }
-p, ol, ul, dl {
-	max-width: 30em;
+p, ol, ul, dl, td {
+	max-width: $text-width;
+	a {
+		text-decoration: none;
+		color: inherit;
+		border-bottom: 1px dashed $dark;
+	}
+	a:hover {
+	    text-shadow: 0 0.01em $dark;
+	}
 }
-p a, ol a, ul a {
-	text-decoration: none;
-	color: inherit;
-	border-bottom: 1px dashed $dark;
-}
-p a:hover, ol a:hover, ul a:hover {
-    text-shadow: 0 0.01em $dark;
-}
+	// except no border under links in tables
+	td {
+		a {
+			border: 0;
+		}
+		a:after {
+			content: " \2192"; // 2192 is a right arrow
+		}
+	}
 blockquote {
 	border-left: 5px solid $dark;
 	margin:  1em 1em 1em 0;
@@ -201,12 +219,18 @@ a.button:hover {
 // Tables
 
 table {
-	width: 100%;
+	width: $text-width * 0.95; // Overridden with media queries for narrow screens below
 	border-collapse: collapse;
 }
 tr {
 	border-top: 1px dashed $dark;
 	border-bottom: 1px dashed $dark;
+}
+th {
+	text-align: left;
+}
+td {
+	padding-right: 0.5em;
 }
 
 // Images
@@ -234,9 +258,9 @@ tr {
 
 img.thumbnail {
     height: 5em;
-    width: 5em;
-    float: left;
-    margin: 0.3em 0.5em 0 0;
+    width: $text-width + 2em; // Paragraph width, plus 2em stretching to sidebar
+    display: block;
+    margin: 0.3em 0.5em 0 -2em;
     background-color: $dark;
 	object-fit: cover;	
 }
@@ -244,8 +268,8 @@ img.thumbnail {
 // Portfolio
 
 .portfolio-excerpt {
-	clear: both;
-	min-height: 6em;
+	min-height: 6em; // gives us a regular vertical flow
+	margin: 0 0 2em 0; // space below each excerpt
 }
 
 // Narrow screens
@@ -298,5 +322,8 @@ img.thumbnail {
 		}
 		h1 {
 			margin: 1em 0 0.5em 0;
+		}
+		table {
+			width: 100%;
 		}
 }

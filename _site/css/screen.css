@@ -67,13 +67,17 @@ body {
   padding: 0 0 0 2em;
   min-height: 100vh; }
 
+#markdown-toc {
+  list-style-type: none;
+  padding: 0; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   line-height: 110%;
-  max-width: 20em; }
+  max-width: 21em; }
 
 h1 {
   font-size: 1.5em;
@@ -91,16 +95,19 @@ h3, h4, h5, h6 {
   text-transform: none;
   letter-spacing: 0; }
 
-p, ol, ul, dl {
+p, ol, ul, dl, td {
   max-width: 30em; }
+  p a, ol a, ul a, dl a, td a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dashed #000000; }
+  p a:hover, ol a:hover, ul a:hover, dl a:hover, td a:hover {
+    text-shadow: 0 0.01em #000000; }
 
-p a, ol a, ul a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 1px dashed #000000; }
-
-p a:hover, ol a:hover, ul a:hover {
-  text-shadow: 0 0.01em #000000; }
+td a {
+  border: 0; }
+td a:after {
+  content: " \2192"; }
 
 blockquote {
   border-left: 5px solid #000000;
@@ -147,12 +154,18 @@ a.button:hover {
   height: 100%; }
 
 table {
-  width: 100%;
+  width: 28.5em;
   border-collapse: collapse; }
 
 tr {
   border-top: 1px dashed #000000;
   border-bottom: 1px dashed #000000; }
+
+th {
+  text-align: left; }
+
+td {
+  padding-right: 0.5em; }
 
 .content img {
   max-width: 100%; }
@@ -175,15 +188,15 @@ tr {
 
 img.thumbnail {
   height: 5em;
-  width: 5em;
-  float: left;
-  margin: 0.3em 0.5em 0 0;
+  width: 32em;
+  display: block;
+  margin: 0.3em 0.5em 0 -2em;
   background-color: #000000;
   object-fit: cover; }
 
 .portfolio-excerpt {
-  clear: both;
-  min-height: 6em; }
+  min-height: 6em;
+  margin: 0 0 2em 0; }
 
 @viewport {
   width: device-width; }
@@ -223,4 +236,7 @@ img.thumbnail {
       margin: -1em; }
 
   h1 {
-    margin: 1em 0 0.5em 0; } }
+    margin: 1em 0 0.5em 0; }
+
+  table {
+    width: 100%; } }
