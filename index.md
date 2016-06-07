@@ -8,7 +8,7 @@ style: home
 
 **We help [publishers](publishing) and impact organisations** tell powerful stories, most&nbsp;often as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
 
-[See our work](/portfolio){:.button}
-[How we work](/workflow){:.button}
+[See our work]({{site.baseurl}}/portfolio){:.button}
+[How we work]({{site.baseurl}}/workflow){:.button}
 
 Contact [team@fireandlion.com](mailto:team@fireandlion.com).

@@ -13,7 +13,7 @@ title: How we manage our work
 * *Transparent*, so you can ask us anything, track projects and access files online, any time.
 * *Future-proof*, focusing on open standards that prevent lock-in and give you the flexibility to use your content in new ways.
 
-We do that in large part by being very organised. Here is how we work. If you're a new Fire and Lion client, we recommend that you give this a quick read. (You may also want to look over [our standard terms](/terms).)
+We do that in large part by being very organised. Here is how we work. If you're a new Fire and Lion client, we recommend that you give this a quick read. (You may also want to look over [our standard terms]({{site.baseurl}}/terms).)
 
 * toc
 {:toc}
@@ -73,7 +73,16 @@ If you'd like to see or access your source files, let us know your GitHub userna
 
 ## Digital-first story production
 
-Like many innovative publishers, we use a digital-first workflow for producing books. This system lets us store your content once, and from that to quickly produce separate editions for print, ebooks and websites.
+Like many innovative publishers, we use a single-master, digital-first workflow for producing books. This system lets us store your content once, and from that to quickly produce separate editions for print, ebooks and websites.
+
+The stages in this workflow are:
+
+1. **We convert the manuscript to markdown.** This is part automated, part manual. Usually we handle this conversion working from manuscripts in MS Word. However, we highly recommend that the book editor creates the final manuscript in markdown to save costs.
+2. **We create a page design.** Unlike traditional InDesign process, we can create the page design ('look and feel') working with the entire book, not just a sample. This means we can account for every feature in a book – no surprises caused by incomplete design specs. Also, if you are happy to use our standard design template, there is no charge at all for page design.
+3. **We deliver PDF page proofs for proofreading.** If we receive the manuscript in markdown and you use our standard page design, we can send you proofs in a matter of hours.
+4. **We implement the proofreader's corrections.** Even better: your editor can log into our system online and make the changes themselves, saving time and costs.
+5. **We refine typography.** Once the text is final, our designers work through the print layout to solve widows, orphans and bad linebreaks.
+6. **We send you final, print-ready PDFs.** They are also available to you online to download any time, using a secret link we provide.
 
 This means that for most books, we don't use InDesign at all for typesetting interior pages. And if editors give us content in markdown, we can produce page proofs in a matter of minutes.
 
@@ -83,4 +92,4 @@ The system uses only open formats (like markdown, HTML and CSS) and is open-sour
 
 In technical terms, we use static-site generation to produce HTML from markdown, and CSS (preprocessed from Sass) to design for various output formats. You can [read about the workflow in lots of detail here](http://electricbookworks.github.io/electric-book-workflow/).
 
-In non-technical terms, you'll get beautiful books faster, cheaper, and future-proof. A key advantage of the system is that you can spend less on typesetting, and more on good editing.
+In non-technical terms, you get beautiful books faster, cheaper, and future-proof. You spend less money and time on typesetting, and more on good editing.
