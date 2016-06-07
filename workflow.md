@@ -79,7 +79,7 @@ The stages in this workflow are:
 
 1. **We convert the manuscript to markdown.** This is part automated, part manual. Usually we handle this conversion working from manuscripts in MS Word. However, we highly recommend that the book editor creates the final manuscript in markdown to save costs.
 2. **We create a page design.** Unlike traditional InDesign process, we can create the page design ('look and feel') working with the entire book, not just a sample. This means we can account for every feature in a book – no surprises caused by incomplete design specs. Also, if you are happy to use our standard design template, there is no charge at all for page design.
-3. **We deliver PDF page proofs for proofreading.** If we receive the manuscript in markdown and you use our standard page design, we can send you proofs in a matter of hours.
+3. **We deliver PDF page proofs for proofreading.** If we receive the manuscript in markdown and you use our standard page design, we can send you proofs in a matter of hours. (We'll happily train your editors in markdown for free. See [our training notes here](http://electricbookworks.github.io/electric-book-workflow/guide/03-markdown.html#markdown).)
 4. **We implement the proofreader's corrections.** Even better: your editor can log into our system online and make the changes themselves, saving time and costs.
 5. **We refine typography.** Once the text is final, our designers work through the print layout to solve widows, orphans and bad linebreaks.
 6. **We send you final, print-ready PDFs.** They are also available to you online to download any time, using a secret link we provide.
