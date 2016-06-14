@@ -12,7 +12,7 @@ When you accept a quote for Fire and Lion's services, you're agreeing to these t
 
 In this agreement, ‘we’ means both parties, Fire and Lion and the client together. ‘You’ means the client.
 
-This agreement sets out the general terms and conditions of our working relationship. Its terms govern each project we undertake together. Each project will have its own specific terms and project deliverables, which will be detailed in a project specification document, and costed on formal quotations. We refer to the material we create together in any given project as ‘the work’.
+This agreement sets out the general terms and conditions of our working relationship. Its terms govern each project we undertake together. Each project should have its own specific terms and project deliverables, which will be detailed in a project specification document or a written brief from you, and costed on formal quotations. We refer to the material we create together in any given project as ‘the work’.
 
 ## No licenses granted
 
@@ -26,13 +26,11 @@ Some elements in your project are yours, and some are Fire and Lion's:
 -	Fire and Lion retains copyright in the elements it provides for the work from its own resources (e.g. design, get-up, computer code, and text and illustrations that don’t form part of the source material provided by you).
 -	Where Fire and Lion (or anyone we commission) creates specific elements (e.g. designs, images, text) that you have specified and commissioned, as detailed in the project specification, and they are fully paid for, we share the copyright in those elements unless the project specification explicitly states otherwise. 
 
-Your name, or the names of contributors you specify, will appear on the cover and title page of the book version, and on similarly prominent places in non-book forms. Your name will appear in the work’s copyright notice as its copyright or licence holder (as applicable).
-
 Fire and Lion may publicly display samples of the work as part of Fire and Lion’s portfolio of work, after publication and as long as those samples would not reasonably affect your interests (e.g. sales of the finished work). 
 
 ## Writing and production
 
-By an agreed date, you will provide all the original material (including text and illustrations or clear briefs for their creation) for the work. Fire and Lion will produce project deliverables within an agreed amount of time. These dates and times are noted in each project specification.
+By an agreed date, you will provide all the original material (including, for example, text and illustrations or clear briefs for their creation) for the work. Fire and Lion will produce project deliverables within an agreed amount of time. These dates and times are noted in each project specification and/or on shared project-management systems.
 
 If you borrow material belonging to others, you will give Fire and Lion copies of the written permission obtained to use it. If the borrowed material can be used under an appropriate open licence (such as a Creative Commons Attribution licence), you will give Fire and Lion copies of the open-licence wording. You will keep a copy of everything you provide, and Fire and Lion will be careful to transport and store safely what they receive.
 
@@ -53,9 +51,9 @@ In the course of producing project deliverables, Fire and Lion may provide servi
 
 You will read the laid-out work carefully before the work is made public. You are responsible for ensuring the accuracy of all information when you create and check the work.
 
-If Fire and Lion does not receive any feedback on a project deliverable within two weeks of delivery, the project deliverable is considered accepted and complete. Fire and Lion may then charge a fee for any changes.
+**If Fire and Lion does not receive any feedback on a project deliverable within two weeks of delivery, the project deliverable is considered accepted and complete.** Fire and Lion may then charge a fee for any changes you make subsequently.
 
-Fire and Lion is responsible for devoting  its full available expertise to decisions about the production and design of the finished work. Fire and Lion will consult you about the design of the published work, but final decisions about design and production values will be made by Fire and Lion, according to what Fire and Lion reasonably believes is in your best interests.
+Fire and Lion is responsible for devoting  its full available expertise to decisions about the production and design of the finished work. Fire and Lion will consult you about the design of the published work, but may need to make final decisions about design and production values according to what Fire and Lion reasonably believes is in your best interests.
 
 ## Payment
 
@@ -76,6 +74,14 @@ Fire and Lion may adjust maintenance service charges and will give you reasonabl
 Fire and Lion is entitled to suspend maintenance services (e.g. remove a work from circulation or deactivate its website) if you do not pay maintenance charges due.
 
 The project specification will include details of how revenue from sales, if any, is distributed to you or other parties.
+
+> ### Web hosting explanation
+> 
+> If we build a website for you, it needs to be hosted somewhere. A web host is where your final website files are physically stored and available to the Internet. 
+> 
+> You can arrange your own web hosting, or we can manage it for you. Fire and Lion is not a web-hosting company; rather we use the services of web-hosting companies we've come to love and rely on over the years. Instead of entering into a complex web-hosting service agreement with you, we are simply transparent about where we have your site hosted, so that our underlying service agreement with the hosting company covers your site, too. Most sites we manage are hosted at [Hetzner South Africa on their shared servers](https://hetzner.co.za/web-hosting/). So if you notice a technical problem with your site, you call us and we'll work with your site's host – usually the Hetzner team – to fix it. This way, you only have to deal with us, and we can translate their technical terms into non-technical language that works for you.
+> 
+> Web hosting is infrastructure – like the wires that bring electricity to your home – so our managing your web hosting is limited to keeping the infrastructure working well. If you need to make changes to the content of your site, we charge for that work separately, either per hour or under a pre-arranged retainer agreement.
 
 ## Updates and revised editions
 
@@ -105,7 +111,7 @@ If either of us intends to sell or transfer this agreement, we will inform each 
 
 ## Contract clauses
 
-If we agree to change any of the terms in this agreement, any changes must be made in writing and signed by both of us.
+If we agree to change any of the terms in this agreement, any changes must be made in writing by both of us.
 
 If the client comprises more than one person, each person agrees to these terms jointly and severally.
 
@@ -113,7 +119,7 @@ If one of us does not take action when the other does not fulfil their obligatio
 
 If a court decides that part of this agreement is not valid, that decision does not affect the rest of the agreement.
 
-If we have any disputes, we will resolve them first through direct discussion, then arbitration if absolutely necessary. We will agree on the arbitrator. The dispute will be resolved finally by the arbitrator, whose decision will be binding. During a dispute, you will continue to pay for ongoing maintenance services .
+If we have any disputes, we will resolve them first through direct discussion, then arbitration if absolutely necessary. We will agree on the arbitrator. The dispute will be resolved finally by the arbitrator, whose decision will be binding. During a dispute, you will continue to pay for ongoing maintenance services.
 
 This is the only agreement we have between us regarding the work. It replaces and supersedes any other agreements. 
 
