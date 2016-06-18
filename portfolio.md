@@ -8,38 +8,34 @@ title: Portfolio
 * toc
 {:toc}
 
+## Literature
+
+**High-end literature is the pinnacle of storytelling** for storytelling's sake. Crafting the beautiful books that carry it is our guilty pleasure, the thing we'd do all day, every day if we could. We're privileged to work with many incredible publishing companies.
+
+{% for post in site.categories.literature %}
+{% include post-excerpt.html %}
+{% endfor %}
+
 ## Social impact
 
 **At Fire and Lion** we believe that every book has a mission: that is, every story has the power and responsibility to change the world. That mission is clearest when we work with social-impact projects and organisations, like MyConstitution, Book Dash, Worldreader, Bettercare, and the More Books Campaign.
 
 {% for post in site.categories.social-impact %}
-<p class="portfolio-excerpt">
-<a href="{{ post.url }}" title="{{ post.title }}">
-<img src="../images/{{ post.image }}" alt="{{ post.title }}" class="thumbnail"></a>
-{{ post.excerpt | remove: '<p>' }} <a href="{{ post.url }}" title="{{ post.title }}">Read more</a>.
-</p>
+{% include post-excerpt.html %}
 {% endfor %}
 
 ## Visual identity
 
-Watershed, Oxflo, Fynbos, Stitch, Moja
+**Who doesn't love a great visual identity?** We've helped dozens of clients define their brands with strong, simple logos and typography, from big public spaces like the Watershed at Cape Town's V&A Waterfront to small, sophisticated businesses like Oxflo and Brand Factory.
 
 {% for post in site.categories.visual-identity %}
-    <li>{{ post.title }}</li>
+{% include post-excerpt.html %}
 {% endfor %}
 
 ## Corporate publications
 
-UNCDF, TBWA, ICT Africa, CCT annual report, V&A report, Small Publishers’ Catalogue
+**Corporate publications don't have to be dry;** they can draw the reader in like the best books in a bookstore. We've worked with dozens of clients to create publications we aren't just proud of, but actually return to again and again, because reading them is just lovely.
 
 {% for post in site.categories.corporate-publications %}
-    <li>{{ post.title }}</li>
-{% endfor %}
-
-## Literature
-
-Gordonia, A Writer’s Diary, Pleasure, The Yearning
-
-{% for post in site.categories.literature %}
-    <li>{{ post.title }}</li>
+{% include post-excerpt.html %}
 {% endfor %}

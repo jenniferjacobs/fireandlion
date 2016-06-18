@@ -1,11 +1,15 @@
 ---
-title: Portfolio template
+# Complete the following four frontmatter items
+title: 
+category: 
+excerpt: ""
+image: 
 ---
+
+# This is a template for a portfolio story
 
 ![Main image]({{site.baseurl}}/images/bookdash-20150527.jpg)
 {:.feature-image}
-
-# This is a template for a portfolio story
 
 This is the story of the job.
 

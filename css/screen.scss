@@ -138,8 +138,12 @@ h1 {
 	line-height: 95%;
 }
 h2 {
-	font-size: 1em;
-	margin: 3em 0 1em 0;
+    font-size: 1em;
+    margin: 3em 0 1em -2em;
+    background: black;
+    color: white;
+    max-width: inherit;
+    padding: 0.3em 0.3em 0.3em 2em;
 }
 h3, h4, h5, h6 {
 	font-family: $font-main;
@@ -257,12 +261,14 @@ td {
 }
 
 img.thumbnail {
-    height: 5em;
+    height: 12em;
     width: $text-width + 2em; // Paragraph width, plus 2em stretching to sidebar
+    max-width: inherit;
     display: block;
-    margin: 0.3em 0.5em 0 -2em;
-    background-color: $dark;
+    margin: 3em 0.5em 1em -2em;
+//    background-color: $dark;
 	object-fit: cover;	
+	border-top: 3px dashed $dark;
 }
 
 // Portfolio

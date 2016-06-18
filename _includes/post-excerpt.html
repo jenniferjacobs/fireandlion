@@ -1,0 +1,5 @@
+<p class="portfolio-excerpt">
+<a href="{{ post.url }}" title="{{ post.title }}">
+<img src="../images/{{ post.image }}" alt="{{ post.title }}" class="thumbnail"></a>
+{{ post.excerpt | remove: '<p>' }} <a href="{{ post.url }}" title="{{ post.title }}">Read more</a>.
+</p>
