@@ -18,7 +18,7 @@ Oxflo is a chemicals company in the minerals industry. In their identity, we cou
 
 Here are several other clients whose identities tell a little story.
 
-![Brand Factory]({{site.baseurl}}/images/visual-identity-brand-factory.jpg)
+![Brand Factory]({{site.baseurl}}/images/visual-identity-brandfactory.jpg)
 
 ![Fynbos Etc]({{site.baseurl}}/images/visual-identity-fynbos-etc.jpg)
 
