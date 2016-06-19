@@ -2,13 +2,13 @@
 # Complete the following four frontmatter items
 title: More than an annual report
 category: corporate-publications
-excerpt: "Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisation who want to go in another direction."
+excerpt: "Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisations who want to go in another direction."
 image: cape-town-tourism-report.jpg
 ---
 
 # So much more than an annual report
 
-Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisation who want to go in another direction, and tell their stories as just that – actual stories.
+Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisations who want to go in another direction, and tell their stories as just that – actual stories.
 
 ![Cape Town Tourism]({{site.baseurl}}/images/cape-town-tourism-report.jpg)
 
