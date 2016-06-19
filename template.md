@@ -1,5 +1,8 @@
 ---
 # Complete the following four frontmatter items
+# For the image file, aim for px size 1200h630w to 1200h1200w
+# https://developers.facebook.com/docs/sharing/best-practices#images
+# and fill the entire area with colour (no white edges)
 title: 
 category: 
 excerpt: ""

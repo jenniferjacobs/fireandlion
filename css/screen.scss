@@ -16,6 +16,7 @@ Tags: fire and lion
 
 // Sizes
 $text-width: 30em;
+$line-height: 1em;
 
 // Fonts
 $font-main: "Crimson Text", serif;
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.025em;
 	line-height: 110%;
 	max-width: $text-width * 0.7;
+	clear: both;
 }
 h1 {
 	font-size: 1.5em;
@@ -260,23 +262,63 @@ td {
 	margin-top: 1em;
 }
 
-img.thumbnail {
-    height: 12em;
-    width: $text-width + 2em; // Paragraph width, plus 2em stretching to sidebar
-    max-width: inherit;
-    display: block;
-    margin: 3em 0.5em 1em -2em;
-//    background-color: $dark;
-	object-fit: cover;	
-	border-top: 3px dashed $dark;
-}
-
 // Portfolio
 
-.portfolio-excerpt {
-	min-height: 6em; // gives us a regular vertical flow
-	margin: 0 0 2em 0; // space below each excerpt
+.portfolio {
+	background-color: $dark;
+	.content {
+		color: $light;
+		a {
+			border-bottom: 1px dashed $light;
+		}
+	}
 }
+
+.post-excerpts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 2em 0 0 0;
+}
+.post-excerpt {
+	min-height: 6em; // helps create regular vertical flow
+	min-width: 15em;
+	margin: 0 0 2em 0; // space below each excerpt
+	width: 50%;
+	float: left;
+}
+ // this is the div around the image
+.post-excerpt-image {
+	width: 100%;
+	height: $line-height * 10;
+	overflow: hidden;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    img {
+    	height: $line-height * 10;
+    	width: 100%;
+    	object-fit: cover;
+    }
+}
+ // this is the text in an excerpt
+.post-excerpt-text {
+	margin: 0.5em 1em 0.5em 0;
+}
+
+// // Gimme a bunch of options for shifting images in their frames
+// // Multiplying by 1% because http://hugogiraudel.com/2013/09/03/use-lengths-not-strings/
+// @for $i from -101 through 99 {
+//   $horizontal: ($i + 1) * 1%;
+//   .h-shift-#{$i + 1} {
+//   	transform: translateX($horizontal);
+//   }
+//   $vertical: ($i + 1) * 1%;
+//   .v-shift-#{$i + 1} {
+//   	transform: translateY($vertical);
+//   }
+// }
 
 // Narrow screens
 
@@ -286,7 +328,17 @@ img.thumbnail {
 
 // Media queries
 @media only screen 
-	and (max-width : 750px) {
+	and (max-width : 60em) { // was 750px
+		h1 {
+			font-size: 0.9em;
+			margin: 1em 0 0.5em 0;
+		}
+		h2, h3, h4, h5, h6 {
+			font-size: 0.9em;
+		}
+		table {
+			width: 100%;
+		}
 		.sidebar {
 			float: none;
 			position: static;
@@ -326,10 +378,12 @@ img.thumbnail {
 				margin: -1em;
 			}
 		}
-		h1 {
-			margin: 1em 0 0.5em 0;
-		}
-		table {
-			width: 100%;
-		}
+}
+@media only screen 
+	and (max-width : 40em) {
+		.post-excerpts {
+			.post-excerpt {
+				width: auto;
+			}
+	}
 }

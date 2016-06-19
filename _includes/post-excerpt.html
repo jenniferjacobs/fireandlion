@@ -1,5 +1,10 @@
-<p class="portfolio-excerpt">
-<a href="{{ site.baseurl }}/{{ post.url }}" title="{{ post.title }}">
-<img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" class="thumbnail"></a>
-{{ post.excerpt | remove: '<p>' }} <a href="{{ site.baseurl }}/{{ post.url }}" title="{{ post.title }}">Read more</a>.
-</p>
+<div class="post-excerpt">
+    <div class="post-excerpt-image">
+        <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+            <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" />
+        </a>
+    </div>
+    <p class="post-excerpt-text">
+        {{ post.excerpt | remove: '<p>' }} <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">Read more</a>.
+    </p>
+</div><!--.portfolio-excerpt-->
