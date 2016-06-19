@@ -4,7 +4,7 @@ description: We help publishers and impact organisations tell complex, powerful 
 style: home
 ---
 
-# Long-form storytelling and&nbsp;design
+# Multi-format publishing and&nbsp;design
 
 **We help [publishers](publishing) and impact organisations** tell powerful stories, most&nbsp;often as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
 
