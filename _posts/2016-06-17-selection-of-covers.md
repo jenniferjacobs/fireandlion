@@ -1,7 +1,7 @@
 ---
 # Complete the following four frontmatter items
 title: Selected book covers
-category: literature
+category: [literature]
 excerpt: "Every book cover has to tell the story of a story, without giving anything away. It's a unique design challenge. Here is a small selection of our book-cover work."
 image: covers-classic-novels.jpg
 ---

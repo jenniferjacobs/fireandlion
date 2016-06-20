@@ -116,7 +116,7 @@ body {
 
 // Page TOCs
 
-#markdown-toc {
+#markdown-toc, .page-toc {
 	list-style-type: none;
 	padding: 0;
 }
@@ -288,37 +288,24 @@ td {
 	margin: 0 0 2em 0; // space below each excerpt
 	width: 50%;
 	float: left;
+	border-right: 0.5em solid black;
+    box-sizing: border-box;
 }
- // this is the div around the image
+ // This is the div around the image
 .post-excerpt-image {
 	width: 100%;
 	height: $line-height * 10;
 	overflow: hidden;
-    border-right: 1px solid black;
-    box-sizing: border-box;
-    img {
+	img {
     	height: $line-height * 10;
     	width: 100%;
     	object-fit: cover;
     }
 }
- // this is the text in an excerpt
+// This is the text in an excerpt
 .post-excerpt-text {
-	margin: 0.5em 1em 0.5em 0;
+	padding-right: 0.5em;
 }
-
-// // Gimme a bunch of options for shifting images in their frames
-// // Multiplying by 1% because http://hugogiraudel.com/2013/09/03/use-lengths-not-strings/
-// @for $i from -101 through 99 {
-//   $horizontal: ($i + 1) * 1%;
-//   .h-shift-#{$i + 1} {
-//   	transform: translateX($horizontal);
-//   }
-//   $vertical: ($i + 1) * 1%;
-//   .v-shift-#{$i + 1} {
-//   	transform: translateY($vertical);
-//   }
-// }
 
 // Narrow screens
 

@@ -67,7 +67,7 @@ body {
   padding: 0 0 0 2em;
   min-height: 100vh; }
 
-#markdown-toc {
+#markdown-toc, .page-toc {
   list-style-type: none;
   padding: 0; }
 
@@ -211,21 +211,21 @@ td {
   min-width: 15em;
   margin: 0 0 2em 0;
   width: 50%;
-  float: left; }
+  float: left;
+  border-right: 0.5em solid black;
+  box-sizing: border-box; }
 
 .post-excerpt-image {
   width: 100%;
   height: 10em;
-  overflow: hidden;
-  border-right: 1px solid black;
-  box-sizing: border-box; }
+  overflow: hidden; }
   .post-excerpt-image img {
     height: 10em;
     width: 100%;
     object-fit: cover; }
 
 .post-excerpt-text {
-  margin: 0.5em 1em 0.5em 0; }
+  padding-right: 0.5em; }
 
 @viewport {
   width: device-width; }
@@ -248,7 +248,7 @@ td {
     width: 100%;
     overflow-x: hidden;
     height: auto;
-    padding: 0.2em 0.5em 0.5em 0.5em; }
+    padding: 0.2em 0.5em 0.4em 0.5em; }
     .sidebar ul {
       margin: 0em;
       max-width: 90%; }
@@ -272,7 +272,10 @@ td {
     margin: 0;
     padding: 0.5em; }
     .content p.feature-image {
-      margin: -1em; } }
+      margin: -1em; }
+
+  .portfolio .sidebar {
+    border-bottom: 3px solid #ffffff; } }
 @media only screen and (max-width: 40em) {
   .post-excerpts .post-excerpt {
     width: auto; } }

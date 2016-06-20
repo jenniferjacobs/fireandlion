@@ -1,7 +1,7 @@
 ---
 title: MyConstitution
 excerpt: "In partnership with Electric Book Works and the CSIR we’re creating a public-domain version of the Constitution in all eleven official South African languages."
-category: social-impact
+category: web-development
 image: myconstitution-home-page.jpg
 ---
 
