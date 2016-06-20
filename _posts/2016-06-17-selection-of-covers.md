@@ -12,12 +12,16 @@ Every book cover has to tell the story of a story, without giving anything away.
 
 
 ![]({{site.baseurl}}/images/covers-classic-novels.jpg)
-{:.featured-image}
+{:.full-width}
 
 ![]({{site.baseurl}}/images/covers-selected-karen.jpg)
+{:.full-width}
 
 ![]({{site.baseurl}}/images/covers-sophiatown-fatherland.jpg)
+{:.full-width}
 
 ![]({{site.baseurl}}/images/covers-fiction-for-africa.jpg)
+{:.full-width}
 
 ![]({{site.baseurl}}/images/cover-innovation.jpg)
+{:.full-width}
