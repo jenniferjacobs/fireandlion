@@ -357,8 +357,8 @@ td {
 		.content {
 			margin: 0;
 			padding: 0.5em;
-			p.feature-image {
-				margin: -1em;
+			.full-width {
+				margin: 0;
 			}
 		}
 		.portfolio .sidebar {
