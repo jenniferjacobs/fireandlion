@@ -346,7 +346,6 @@ td {
 			overflow-x: hidden;
 			height: auto;
 			padding: 0.2em 0.5em 0.4em 0.5em;
-			border-bottom: 3px solid $light;
 			ul {
 				margin: 0em;
 				max-width: 90%;
@@ -378,6 +377,9 @@ td {
 			p.feature-image {
 				margin: -1em;
 			}
+		}
+		.portfolio .sidebar {
+			border-bottom: 3px solid $light;
 		}
 }
 @media only screen 
