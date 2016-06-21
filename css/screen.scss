@@ -186,6 +186,9 @@ strong {
 	font-weight: 600;
 	@include smallcaps();
 }
+em {
+	line-height: 100%;
+}
 
 // Buttons
 
