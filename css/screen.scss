@@ -28,8 +28,7 @@ $mid: #cccccc;
 $light: #ffffff;
 
 // Mixins
-@mixin smallcaps() {
-	text-transform: uppercase;
+@mixin smallcaps() {	text-transform: uppercase;
 	font-size: 0.7em;
 	letter-spacing: 0.075em;
 	line-height: 100%;
@@ -257,6 +256,12 @@ td {
 	    z-index: -1;
 		.content .full-width img {
 			max-width: 100%;
+		}
+	}
+	.fit-height {
+		img {
+			max-height: 100vh;
+			width: auto;
 		}
 	}
 }

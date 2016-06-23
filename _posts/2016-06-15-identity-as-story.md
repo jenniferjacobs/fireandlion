@@ -2,7 +2,7 @@
 title: Visual identities
 category: visual-identity
 excerpt: "Sometimes you have to tell a story in a single image: no more so than in your brand's visual identity. A great identity is not only a smart image. It creates story-like connections in our brains that draw us in and form stronger memories."
-image: visual-identity-hybrid.jpg
+image: identity-thumbnail.jpg
 ---
 
 # Every visual identity tells&nbsp;a&nbsp;story

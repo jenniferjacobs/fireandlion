@@ -3,7 +3,7 @@
 title: The Watershed, V&A Waterfront, Cape Town
 category: visual-identity
 excerpt: "For this major new development at Cape Town's V&A Waterfront, our lead designer Karen Lilje had to create a strong, simple identity that worked in many different contexts."
-image: visual-identity-watershed.jpg
+image: watershed-og-image.jpg
 ---
 
 # Simplicity and strength for the Watershed

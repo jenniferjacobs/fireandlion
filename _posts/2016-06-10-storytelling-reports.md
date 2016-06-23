@@ -3,17 +3,12 @@
 title: More than an annual report
 category: corporate-publications
 excerpt: "Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisations who want to go in another direction."
-image: cape-town-tourism-report.jpg
+image: corporate-thumbnail.jpg
 ---
 
 # So much more than an annual&nbsp;report
 
 Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisations who want to go in another direction, and tell their stories as just that – actual stories.
-
-![Cape Town Tourism]({{site.baseurl}}/images/cape-town-tourism-report.jpg)
-{:.full-width}
-
-For Cape Town Tourism, we designed this annual report to build on the organisation's identity as a bright team with a keen appreciation for contemporary culture in the Mother City.
 
 ![ICT Africa]({{site.baseurl}}/images/ict-africa-annual-report.jpg)
 {:.full-width}
@@ -23,4 +18,9 @@ For ICT Africa's report *How Ordinary People Got Connected*, we wanted to make t
 ![V&A Waterfront Economic Contribution report]({{ site.baseurl }}/images/va-waterfront-findings-report.jpg)
 {:.full-width}
 
-And for the V&A Waterfront's 'Economic Contribution' report, we could help our clients tell their story with great visual metaphors.
+For the V&A Waterfront's 'Economic Contribution' report, we could help our clients tell their story with great visual metaphors.
+
+![Cape Town Tourism]({{site.baseurl}}/images/cape-town-tourism-report.jpg)
+{:.full-width}
+
+For Cape Town Tourism, we designed this annual report to build on the organisation's identity as a bright team with a keen appreciation for contemporary culture in the Mother City.
