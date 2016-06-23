@@ -13,8 +13,6 @@ Book design is more than typesetting, and in the most beautiful books each page 
 ![Musical Instruments]({{site.baseurl}}/images/musical-instruments-spreads.jpg)
 {:.full-width}
 
-We prioritise working on social-impact projects, like this one, which addresses xenophobia in South Africa.
-
 ![Go Home or Die Here]({{site.baseurl}}/images/book-design-go-home.jpg)
 {:.full-width}
 
