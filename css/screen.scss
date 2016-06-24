@@ -37,8 +37,9 @@ $light: #ffffff;
 // Structure
 
 html, body {
-	overflow-x: hidden; // Prevents horizontal scrolling
+	overflow-x: hidden; // Prevents horizontal scrolling, in conjunction with width/max-width
 	width: 100%;
+	max-width: 100%;
 }
 body {
 	font-family: $font-main;
