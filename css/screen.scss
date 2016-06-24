@@ -24,7 +24,7 @@ $font-secondary: "Montserrat", sans-serif;
 
 // Palette
 $dark: #000000;
-$mid: #cccccc;
+$mid: #e1e1e1;
 $light: #ffffff;
 
 // Mixins
@@ -188,6 +188,11 @@ strong {
 em {
 	line-height: 100%;
 }
+hr {
+	border: 1px solid $mid;
+    width: calc(100% + 2em);
+    margin: 1em 0 1em -2em;
+}
 
 // Buttons
 
@@ -309,6 +314,28 @@ td {
 // This is the text in an excerpt
 .post-excerpt-text {
 	padding-right: 0.5em;
+}
+
+// Gallery
+// To create a gallery, put images one after the other in a blockquote
+// and tag the blockquote {:.gallery}
+
+.gallery {
+	margin: 1em 0;
+	padding: 0;
+	border: 0;
+	width: auto;
+	p {
+		max-width: 100%;
+		img {
+			max-height: 50vh;
+			width: auto;
+			float: left;
+			display: inline-block;
+			margin: 0 1em 1em 0;
+			border: 1px solid $mid;
+		}
+	}
 }
 
 // Narrow screens

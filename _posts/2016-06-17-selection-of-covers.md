@@ -10,39 +10,41 @@ image: innovation-cover-thumbnail.jpg
 
 Every book cover has to tell the story of a story, without giving anything away. Here is a small selection of our book-cover work.
 
-![Selected covers]({{site.baseurl}}/images/covers-selected-karen.jpg)
-{:.full-width}
-
-![Innovation]({{site.baseurl}}/images/cover-innovation.jpg)
-{:.fit-height}
-
-![Gordonia]({{site.baseurl}}/images/gordonia-cover.jpg)
-{:.fit-height}
-
-![Africa Open for Business]({{site.baseurl}}/images/africa-open-for-business-cover.jpg)
-{:.fit-height}
-
-![Imagined Worlds]({{site.baseurl}}/images/imagined-worlds-cover.jpg)
-{:.fit-height}
-
-![Why Do Aircraft Crash?]({{site.baseurl}}/images/why-do-aircraft-crash_cover.jpg)
-{:.fit-height}
-
-![Hyphen]({{site.baseurl}}/images/hyphen-cover.jpg)
-{:.fit-height}
-
-![Being Different Together]({{site.baseurl}}/images/being-different-together-cover.jpg)
-{:.fit-height}
-
-![Gulliver's Troubles]({{site.baseurl}}/images/gullivers-troubles-cover.jpg)
-{:.fit-height}
-
-![True North]({{site.baseurl}}/images/true-north-cover.jpg)
-{:.fit-height}
-
-![The Way It Was]({{site.baseurl}}/images/the-way-it-was-cover.jpg)
-{:.fit-height}
-
-![The Business Prep Guide]({{site.baseurl}}/images/business-prep-guide-cover.jpg)
-{:.fit-height}
-
+> ![Five Hundred Years Rediscovered]({{site.baseurl}}/images/five-hundred-years-cover.jpg)
+> 
+> ![African Development in the 21st Century]({{site.baseurl}}/images/african-development-cover.jpg)
+> 
+> ![A Church of Strangers]({{site.baseurl}}/images/church-of-strangers-cover.jpg)
+> 
+> ![From Africa to Afghanistan]({{site.baseurl}}/images/from-africa-to-afghanistan.jpg)
+> 
+> ![The Missing Piece]({{site.baseurl}}/images/missing-piece-cover.jpg)
+> 
+> ![Gaze Regimes]({{site.baseurl}}/images/gaze-regimes-cover.jpg)
+> 
+> ![Place of Thorns]({{site.baseurl}}/images/place-of-thorns-cover.jpg)
+> 
+> ![Karoo Dust]({{site.baseurl}}/images/karoo-dust-cover.jpg)
+> 
+> ![Innovation]({{site.baseurl}}/images/cover-innovation.jpg)
+> 
+> ![Gordonia]({{site.baseurl}}/images/gordonia-cover.jpg)
+> 
+> ![Africa Open for Business]({{site.baseurl}}/images/africa-open-for-business-cover.jpg)
+> 
+> ![Imagined Worlds]({{site.baseurl}}/images/imagined-worlds-cover.jpg)
+> 
+> ![Why Do Aircraft Crash?]({{site.baseurl}}/images/why-do-aircraft-crash_cover.jpg)
+> 
+> ![Hyphen]({{site.baseurl}}/images/hyphen-cover.jpg)
+> 
+> ![Being Different Together]({{site.baseurl}}/images/being-different-together-cover.jpg)
+> 
+> ![Gulliver's Troubles]({{site.baseurl}}/images/gullivers-troubles-cover.jpg)
+> 
+> ![True North]({{site.baseurl}}/images/true-north-cover.jpg)
+> 
+> ![The Way It Was]({{site.baseurl}}/images/the-way-it-was-cover.jpg)
+> 
+> ![The Business Prep Guide]({{site.baseurl}}/images/business-prep-guide-cover.jpg)
+{:.gallery}
