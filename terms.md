@@ -4,9 +4,15 @@ description: Fire and Lion's terms and conditions when we do production work for
 ---
 
 # Services terms
+{:.no_toc}
 
 > Key-points summary: All your rights remain yours. You have any necessary permissions. You'll have two weeks to give us feedback on work we deliver. You'll pay a deposit up front and all invoices on delivery. And either of us can cancel, both settling any debts to one another.
 {:.shout}
+
+* Contents list here
+{:toc}
+
+## Introduction
 
 When you accept a quote for Fire and Lion's services, you're agreeing to these terms and conditions as they stand when you accept the quote. They form an agreement between us. If you'd like to have a paper copy, print this page for your records. (This version of our terms is dated {{ site.time | date: '%-d %B %Y' }}.)
 
@@ -130,12 +136,14 @@ This agreement is subject to the laws of the Republic of South Africa.
 (For printed copies where necessary. These terms are also considered accepted by the client when Fire and Lion's quotes are accepted.)
 
 ### For Fire and Lion
+{:.no_toc}
 
 | Full name 
 | Signature 
 | Date
 
 ### For the client
+{:.no_toc}
 
 | Organisation 
 | Address

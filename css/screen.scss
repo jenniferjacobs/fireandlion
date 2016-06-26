@@ -119,6 +119,9 @@ body {
 #markdown-toc, .page-toc {
 	list-style-type: none;
 	padding: 0;
+	li li {
+		list-style-type: none;
+	}
 }
 
 // Footer
