@@ -6,7 +6,7 @@ style: home
 
 # Information design
 
-**We help impact organisations and [publishers](publishing)** tell powerful stories. We&nbsp;specialise in presenting those stories as crafted books, ebooks and websites through world-class content development, design and illustration.
+**We help impact organisations and [publishers](publishing)** tell powerful stories. We&nbsp;specialise in presenting these stories as crafted books, ebooks and websites through world-class content development, design and illustration.
 
 [See our work]({{site.baseurl}}/portfolio){:.button}
 [How we work]({{site.baseurl}}/workflow){:.button}
