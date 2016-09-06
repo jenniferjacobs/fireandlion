@@ -4,9 +4,9 @@ description: We help clients tell complex, powerful stories as books, ebooks and
 style: home
 ---
 
-# Multi-format publishing and&nbsp;design
+# Information design
 
-**We help [publishers](publishing) and impact organisations** tell powerful stories, most&nbsp;often as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
+**We help impact organisations and [publishers](publishing)** tell powerful stories. We&nbsp;specialise in presenting those stories as crafted books, ebooks and websites through world-class content development, design and illustration.
 
 [See our work]({{site.baseurl}}/portfolio){:.button}
 [How we work]({{site.baseurl}}/workflow){:.button}
