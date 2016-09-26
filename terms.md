@@ -108,7 +108,7 @@ This agreement may end in these ways:
 
 When this agreement ends:
 
--	If Fire and Lion has excess printed copies of the work in stock, Fire and Lion will offer you those copies at the most recent cost price of printing and delivery. Fire and Lion may then donate remaining copies to worthy causes of its choosing, or dispose of them.
+-	If Fire and Lion has excess printed copies of the work in stock, which you do not already own, Fire and Lion will offer you those copies at the most recent cost price of printing and delivery. Fire and Lion may then donate remaining copies to worthy causes of its choosing, or dispose of them.
 -	Any money owed between the parties must still be paid. Money paid in advance for uncompleted work must be refunded, less any direct costs incurred up to the date on which the notice of termination was received. All payments are due by the date of termination.
 
 ## Assigning this agreement to others
