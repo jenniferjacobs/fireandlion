@@ -16,7 +16,7 @@ Tags: fire and lion
 
 // Sizes
 $text-width: 30em;
-$line-height: 1em;
+$line-height: 1.4;
 
 // Fonts
 $font-main: "Crimson Text", serif;
@@ -46,7 +46,7 @@ body {
 	font-size: 1.3em;
 	margin: 0;
 	padding: 0;
-	line-height: 140%;
+	line-height: $line-height;
 	background-color: $light;
 }
 .wrapper {
@@ -159,6 +159,7 @@ h3, h4, h5, h6 {
 }
 p, ol, ul, dl, td {
 	max-width: $text-width;
+	margin-bottom: 1em * $line-height;
 	a {
 		text-decoration: none;
 		color: inherit;
@@ -208,6 +209,12 @@ a.button {
 	display: inline-block;
 	color: $light;
 	box-shadow: 0 0.05em 0.1em $dark;
+	&.light {
+		background-color: $light;
+		box-shadow: none;
+		color: $dark;
+		border: 1px solid $dark;
+	}
 }
 a.button:hover {
 	box-shadow: 0 0.05em 0.3em $dark;
@@ -278,11 +285,11 @@ td {
 // Portfolio
 
 .portfolio {
-	background-color: $dark;
+	background-color: $light;
 	.content {
-		color: $light;
+		color: $dark;
 		a {
-			border-bottom: 1px dashed $light;
+			border-bottom: 1px dashed $dark;
 		}
 	}
 }
@@ -301,7 +308,7 @@ td {
 	margin: 0 0 2em 0; // space below each excerpt
 	width: 50%;
 	float: left;
-	border-right: 0.5em solid black;
+	border-right: 0.5em solid $light;
     box-sizing: border-box;
 }
  // This is the div around the image
@@ -309,6 +316,9 @@ td {
 	width: 100%;
 	height: $line-height * 10;
 	overflow: hidden;
+	a {
+		border: 0 !important; // must overide more specific .portfolio .content a
+	}
 	img {
     	height: $line-height * 10;
     	width: 100%;
