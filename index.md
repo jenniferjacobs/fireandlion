@@ -6,7 +6,7 @@ style: home
 
 # Information design
 
-We help publishers and impact organisations tell powerful stories, using world-class design and sensible technology to produce books, ebooks and websites.
+We help publishers and impact organisations tell powerful stories, using world-class design and sensible technology to produce books, ebooks and&nbsp;websites.
 
 [See our work]({{site.baseurl}}/portfolio){:.button}
 [Meet our team]({{site.baseurl}}/team){:.button}
