@@ -6,9 +6,9 @@ style: home
 
 # Information design
 
-**We help impact organisations and [publishers](publishing)** tell powerful stories. We&nbsp;specialise in presenting these stories as crafted books, ebooks and websites through world-class content development, design and illustration.
+We help publishers and impact organisations tell powerful stories, using world-class design and sensible technology to produce books, ebooks and websites.
 
 [See our work]({{site.baseurl}}/portfolio){:.button}
-[How we work]({{site.baseurl}}/workflow){:.button}
+[Meet our team]({{site.baseurl}}/team){:.button}
 
 Contact [team@fireandlion.com](mailto:team@fireandlion.com).
