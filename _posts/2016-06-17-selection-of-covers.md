@@ -3,7 +3,7 @@
 title: Selected book covers
 category: [literature]
 excerpt: "Every book cover has to tell the story of a story, without giving anything away. Here is a small selection of our book-cover work."
-image: innovation-cover-thumbnail.jpg
+image: covers-thumbnail.jpg
 ---
 
 # Selected book covers

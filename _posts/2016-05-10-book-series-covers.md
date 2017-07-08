@@ -3,7 +3,7 @@
 title: Designing book-series covers
 category: literature
 excerpt: "Series cover design means crafting each individual title within specified design parameters. Every cover needs to be strong enough to stand on its own while in keeping with the series."
-image: series-cover-thumbnail.jpg
+image: pm-classic-series-2.jpg
 ---
 
 # Designing book-series covers
