@@ -1,9 +1,16 @@
 <div class="post-excerpt">
     <div class="post-excerpt-image">
+    {% unless post.image == "none" %}
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
             <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" />
         </a>
+    {% endunless %}
     </div>
+
+    {% if post.image == "none" %}
+    <h3>{{ post.title }}</h3>
+    {% endif %}
+
     <p class="post-excerpt-text">
         {{ post.excerpt | remove: '<p>' }} <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">See more</a>.
     </p>
