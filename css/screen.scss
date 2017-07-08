@@ -85,8 +85,9 @@ body {
 	box-shadow: 0 0.05em 0.2em $dark;
 	ul {
 		list-style-type: none;
+		text-align: right;
 		padding: 0;
-		margin: 0;
+		margin: 0 0.5em 0 0;
 		li {
 			margin: 0;
 		}
@@ -99,7 +100,9 @@ body {
 		border-bottom: 1px dashed #ffffff;
 	}
 	.logo {
-		margin: 0.1em 0 1.5em 0;
+		margin: 0.1em -2em 1.65em -2em; // bottom margin set to align baseline of menu with body text
+		border-bottom: 2px solid $light;
+		padding: 0 0 2em 2em;
 		a:hover {
 			border: 0;
 		}
@@ -111,8 +114,12 @@ body {
 
 .content {
 	margin: 0 0 2em 14em;
-    padding: 0 0 0 2em;
+    padding: 0 2em;
     min-height: 100vh;
+    .content-inner {
+    	margin: auto;
+    	max-width: 30em;
+    }
 }
 
 // Page TOCs
@@ -145,25 +152,26 @@ body {
 // Typography
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: $font-secondary;
-	text-transform: uppercase;
-	letter-spacing: 0.025em;
+	// font-family: $font-secondary;
+	// text-transform: uppercase;
+	// letter-spacing: 0.05em;
 	line-height: 110%;
-	max-width: $text-width * 0.7;
+	max-width: 80%;
 	clear: both;
 }
 h1 {
-	font-size: 1.5em;
-	margin: 5.1em 0 1.1em 0;
+	font-size: 1.7em;
+	margin: 5.32em 0 1.1em 0; // top margin aligns text with Fire and Lion lettering
 	line-height: 95%;
 }
 h2 {
-    font-size: 1em;
-    margin: 3em 0 1em -2em;
-    background: black;
-    color: white;
+    font-size: 1.2em;
+    letter-spacing: 0.01em;
+    margin: 3em 0 1em 0;
+    // background: black;
+    // color: white;
     max-width: inherit;
-    padding: 0.3em 0.3em 0.3em 2em;
+    // padding: 0.3em 0.3em 0.3em 100em;
 }
 h3, h4, h5, h6 {
 	font-family: $font-main;
@@ -174,7 +182,7 @@ h3, h4, h5, h6 {
 	text-align: left;
 }
 p, ol, ul, dl, td {
-	max-width: $text-width;
+	// max-width: $text-width;
 	margin-bottom: 1em * $line-height;
 	a {
 		text-decoration: none;
@@ -256,6 +264,10 @@ a.button:hover {
 	height: 100%;
 }
 
+.map {
+	filter: grayscale(100%);
+}
+
 // Tables
 
 table {
@@ -322,7 +334,7 @@ td {
 	min-height: 6em; // helps create regular vertical flow
 	min-width: 15em;
 	margin: 0 0 2em 0; // space below each excerpt
-	width: 50%;
+	width: 100%;
 	float: left;
 	border-right: 0.5em solid $light;
     box-sizing: border-box;
@@ -378,11 +390,11 @@ td {
 @media only screen 
 	and (max-width : 60em) { // was 750px
 		h1 {
-			font-size: 0.9em;
+			font-size: 1.2em;
 			margin: 1em 0 0.5em 0;
 		}
 		h2 {
-			font-size: 0.9em;
+			// font-size: 0.9em;
 		}
 		table {
 			width: 100%;
@@ -397,6 +409,7 @@ td {
 			ul {
 				margin: 0em;
 				max-width: 90%;
+				text-align: left;
 				li {
 					display: inline-block;
 					margin: 0;
@@ -413,6 +426,7 @@ td {
 				font-family: $font-secondary;
 				text-transform: uppercase;
 				font-size: 0.9em;
+				letter-spacing: 0.1em;
 				line-height: 100%;
 			}
 			.logo {
