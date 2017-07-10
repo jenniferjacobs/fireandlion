@@ -24,7 +24,7 @@ style: portfolio
 	{% if site.categories.[category-slug] %}
 
 		<h2 id="{{ category-slug }}">{% if category[1].name %}{{ category[1].name }}{% endif %}</h2>
-		<p>{% if category[1].description %}{{ category[1].description | markdownify }}{% endif %}</p>
+		<p>{% if category[1].description %}{{ category[1].description | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}</p>
 		<div class="post-excerpts">
 			{% for post in site.categories.[category-slug] %}
 			{% include post-excerpt.html %}
