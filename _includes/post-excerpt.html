@@ -1,10 +1,15 @@
 <div class="post-excerpt">
     <div class="post-excerpt-image">
+    {% unless post.image == "none" %}
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
             <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" />
         </a>
+    {% endunless %}
     </div>
+
+    <h3><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+
     <p class="post-excerpt-text">
-        {{ post.excerpt | remove: '<p>' }} <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">See more</a>.
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a class="post-excerpt-text-more" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">See more</a>.
     </p>
 </div><!--.portfolio-excerpt-->
