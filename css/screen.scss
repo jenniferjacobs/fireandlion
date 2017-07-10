@@ -17,10 +17,13 @@ Tags: fire and lion
 // Sizes
 $text-width: 30em;
 $line-height: 1.4;
+$sidebar-width: 10em;
 
 // Fonts
-$font-main: "Crimson Text", serif;
-$font-secondary: "Montserrat", sans-serif;
+$font-main: "Crimson Text", serif; // https://fonts.google.com/specimen/Crimson+Text
+$font-secondary: "Josefin Sans", sans-serif; // https://fonts.google.com/specimen/Josefin+Sans
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Josefin+Sans:600&subset=latin-ext');
 
 // Palette
 $dark: #000000;
@@ -31,7 +34,7 @@ $light: #ffffff;
 @mixin smallcaps() {
 	text-transform: uppercase;
 	font-size: 0.7em;
-	letter-spacing: 0.075em;
+	letter-spacing: 0.1em;
 	line-height: 100%;
 }
 
@@ -73,53 +76,80 @@ body {
 
 // Sidebar
 
+// Styles for all screens
 .sidebar {
-	float: left;
-	position: fixed;
-	width: 10em;
-	top: 0;
-	height: 100vh;
 	background-color: $dark;
-	padding: 2em;
 	color: $light;
 	box-shadow: 0 0.05em 0.2em $dark;
-	ul {
-		list-style-type: none;
-		text-align: right;
-		padding: 0;
-		margin: 0 0.5em 0 0;
-		li {
-			margin: 0;
-		}
-		}
 	a {
 		color: inherit;
 		text-decoration: none;
+		&:hover {
+			border-bottom: 1px dashed #ffffff;
+		}
 	}
-	a:hover {
-		border-bottom: 1px dashed #ffffff;
+}
+// Mobile-first styles, overridden later for big screens
+.sidebar {
+	float: none;
+	position: static;
+	// width: 100%;
+	overflow-x: hidden;
+	height: auto;
+	padding: 0.2em 0.5em 0.4em 0.5em;
+	.name {
+		h1 {
+			font-family: $font-secondary;
+			font-size: 1em;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			margin: 0.3em 1em 0 0;
+			float: left;
+		}
+	}
+	.nav-list {
+		ul {
+			display: inline-block; // Keeps menu together
+			margin: 0.05em 0 0 0; // aligns menu with .name
+			max-width: 90%;
+			text-align: left;
+			padding: 0; // overrides user-agent
+			li {
+				display: inline-block;
+				margin: 0;
+				&:first-of-type {
+					display: none; // hide the 'Home' item
+				}
+				&:after {
+					content: " \2022";
+				}
+				&:last-of-type:after {
+					content: normal;
+				}
+			}
+		}
 	}
 	.logo {
-		margin: 0.1em -2em 1.65em -2em; // bottom margin set to align baseline of menu with body text
-		border-bottom: 2px solid $light;
-		padding: 0 0 2em 2em;
-		a:hover {
-			border: 0;
-		}
+		display: none;
 	}
 }
 
 
+
 // Content
 
+// Styles for all screen sizes
 .content {
-	margin: 0 0 2em 14em;
-    padding: 0 2em;
-    min-height: 100vh;
-    .content-inner {
-    	margin: auto;
-    	max-width: 30em;
-    }
+	min-height: 100vh;
+	.content-inner {
+		margin: auto;
+		max-width: $text-width;
+	}
+}
+// Mobile first, overriden by media queries later
+.content {
+	margin: 0 0 2em 0;
+	padding: 0.5em;
 }
 
 // Page TOCs
@@ -133,45 +163,59 @@ body {
 }
 
 // Footer
+
+// Styles for all sizes
 .footer {
-    margin: 0 0 0 14em;
-    padding: 0.5em 2em;
-    background-color: $dark;
-    p, ul, ol {
-	    letter-spacing: 0.075em;
-	    color: $mid;
-	    text-transform: uppercase;
-    	font-size: 0.65em;
-    }
-    a {
-    	border-color: inherit;
-    	display: inline-block;
-    }
+	background-color: $dark;
+	p, ul, ol {
+		color: $mid;
+		font-size: 0.8em;
+	}
+	a {
+		border: 0;
+		display: inline-block;
+		&:hover {
+			border-bottom: 1px dashed #ffffff;
+		}
+	}
+}
+// Mobile first, overriden by media queries later
+.footer {
+	margin: 0;
+	padding: 1.5em 2em 0.5em 2em;
+	text-align: center;
 }
 
 // Typography
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	// font-family: $font-secondary;
-	// text-transform: uppercase;
-	// letter-spacing: 0.05em;
 	line-height: 110%;
 	max-width: 80%;
 	clear: both;
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 }
+// Styles for all screen sizes
 h1 {
-	font-size: 1.7em;
-	margin: 5.32em 0 1.1em 0; // top margin aligns text with Fire and Lion lettering
-	line-height: 95%;
+	line-height: 110%;
 }
+// Mobile styles, overriden by media queries below
+h1 {
+	font-size: 1.3em;
+	margin: 1em 0 0.5em 0;
+}
+// Styles for all sizes
 h2 {
-    font-size: 1.2em;
-    letter-spacing: 0.01em;
-    margin: 3em 0 1em 0;
-    // background: black;
-    // color: white;
-    max-width: inherit;
-    // padding: 0.3em 0.3em 0.3em 100em;
+	font-style: italic;
+	letter-spacing: 0.01em;
+	margin: 3em 0 0.5em 0;
+	max-width: inherit;
+}
+// Mobile styles, overriden by media queries below
+h2 {
+	font-size: 1.1em;
 }
 h3, h4, h5, h6 {
 	font-family: $font-main;
@@ -182,7 +226,7 @@ h3, h4, h5, h6 {
 	text-align: left;
 }
 p, ol, ul, dl, td {
-	// max-width: $text-width;
+	margin-top: 0;
 	margin-bottom: 1em * $line-height;
 	a {
 		text-decoration: none;
@@ -190,7 +234,7 @@ p, ol, ul, dl, td {
 		border-bottom: 1px dashed $dark;
 	}
 	a:hover {
-	    text-shadow: 0 0.01em $dark;
+		text-shadow: 0 0.01em $dark;
 	}
 }
 	// except no border under links in tables
@@ -218,18 +262,19 @@ em {
 	line-height: 100%;
 }
 hr {
-	border: 1px solid $mid;
-    width: calc(100% + 2em);
-    margin: 1em 0 1em -2em;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 0; // override user-agent styles
+	width: 30%;
+	margin: 3em auto;
 }
 
 // Buttons
 
 a.button {
 	background-color: $dark;
-	padding: 0.4em 0.5em;
+	padding: 0.15em 0.5em;
 	margin: 0 0.5em 0.5em 0;
-	border-radius: 0.2em;
+	border-radius: 0.02em;
 	display: inline-block;
 	color: $light;
 	box-shadow: 0 0.05em 0.1em $dark;
@@ -244,25 +289,7 @@ a.button:hover {
 	box-shadow: 0 0.05em 0.3em $dark;
 }
 
-// Embedded iframes
-
-.embed {
-	float: none;
-	clear: both;
-	width: 100%;
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
-	margin: 0 0 1em 0;
-}
-.embed iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+// Map on find-us page
 
 .map {
 	filter: grayscale(100%);
@@ -271,7 +298,7 @@ a.button:hover {
 // Tables
 
 table {
-	width: $text-width * 0.95; // Overridden with media queries for narrow screens below
+	width: 100%;
 	border-collapse: collapse;
 }
 tr {
@@ -290,14 +317,13 @@ td {
 .content {
 	img {
 		max-width: 100%;
-		width: 100%;
 	}
 	.full-width {
-	    max-width: calc(100% + 2em);
-	    margin: 0 0 0 -2em;
-	    position: relative;
-	    top: 0;
-	    z-index: -1;
+		max-width: calc(100% + 2em);
+		margin: 0 0 0 -2em;
+		position: relative;
+		top: 0;
+		z-index: -1;
 		.content .full-width img {
 			max-width: 100%;
 		}
@@ -316,46 +342,37 @@ td {
 	background-color: $light;
 	.content {
 		color: $dark;
-		a {
-			border-bottom: 1px dashed $dark;
-		}
 	}
 }
 
 .post-excerpts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    margin: 2em 0 0 0;
+	padding-top: 2em;
 }
+// Styles for all screens
 .post-excerpt {
-	min-height: 6em; // helps create regular vertical flow
-	min-width: 15em;
-	margin: 0 0 2em 0; // space below each excerpt
-	width: 100%;
-	float: left;
-	border-right: 0.5em solid $light;
-    box-sizing: border-box;
+	h3, h4, h5 {
+		margin-bottom: 0;
+	}
+}
+// Mobile first, overriden below
+.post-excerpt {
+	padding: 0 1em 1em 1em;
 }
  // This is the div around the image
 .post-excerpt-image {
-	width: 100%;
-	height: $line-height * 10;
+	max-width: 100%;
 	overflow: hidden;
+	text-align: center;
 	a {
 		border: 0 !important; // must overide more specific .portfolio .content a
 	}
-	img {
-    	height: $line-height * 10;
-    	width: 100%;
-    	object-fit: cover;
-    }
 }
 // This is the text in an excerpt
 .post-excerpt-text {
-	padding-right: 0.5em;
+	// padding-right: 0.5em;
+	.post-excerpt-text-more {
+		display: inline-block;
+	}
 }
 
 // Gallery
@@ -364,93 +381,98 @@ td {
 
 .gallery {
 	max-width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-around;
 	img {
-	    flex: 1 0 1em; // shorthand: flex-grow flex-shrink flex-basis
-	    max-width: 10em;
-	    min-width: 7em;
-	    margin: 0 0.5em 0.5em 0;
-	    border: 1px solid $mid;
+		flex: 1 0 1em; // shorthand: flex-grow flex-shrink flex-basis
+		max-width: 10em;
+		min-width: 7em;
+		margin: 0 0.5em 0.5em 0;
+		// border: 1px solid $mid; // for white covers
 	}
 	a {
 		border: 0;
 	}
 }
 
-// Narrow screens
-
 // This for Windows (see https://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
 @viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
 
-// Media queries
+// Styles for big screens
 @media only screen 
-	and (max-width : 60em) { // was 750px
+	and (min-width: 60em) {
 		h1 {
-			font-size: 1.2em;
-			margin: 1em 0 0.5em 0;
+			font-size: 1.7em;
+			margin: 5.36em 0 1em 0; // top margin aligns text with Fire and Lion logo lettering
 		}
 		h2 {
-			// font-size: 0.9em;
-		}
-		table {
-			width: 100%;
+			font-size: 1.3em;
 		}
 		.sidebar {
-			float: none;
-			position: static;
-			width: 100%;
-			overflow-x: hidden;
-			height: auto;
-			padding: 0.2em 0.5em 0.4em 0.5em;
-			ul {
-				margin: 0em;
-				max-width: 90%;
-				text-align: left;
-				li {
-					display: inline-block;
-					margin: 0;
+			float: left;
+			position: fixed;
+			width: $sidebar-width;
+			top: 0;
+			height: 100vh;
+			padding: 2em;
+			.nav-list {
+				ul {
+					display: block;
+					list-style-type: none;
+					text-align: right;
+					li {
+						margin: 0;
+						display: block;
+						&:first-of-type {
+							display: block; // show the 'Home' item
+						}
+						&:after {
+							display: none;
+						}
+					}
+					&:before {
+						content: "";
+						display: inline-block;
+						border-bottom: 1.5px solid $light;
+						width: ($line-height * 2em);
+						height: 1em;
+					}
+					&:after {
+						content: "";
+						display: inline-block;
+						border-top: 1.5px solid $light;
+						width: ($line-height * 2em);
+						height: 0.5em;
+					}
 				}
 			}
-			li:after {
-				content: " \2022";
-			}
-			li:last-of-type:after {
-				content: "";
-			}
-			li:first-of-type:before {
-				content: "Fire and Lion \2022  ";
-				font-family: $font-secondary;
-				text-transform: uppercase;
-				font-size: 0.9em;
-				letter-spacing: 0.1em;
-				line-height: 100%;
+			.name {
+				display: none;
 			}
 			.logo {
-				display: none;
+				display: block;
+				margin: 0 0 1.6em 0; // bottom margin set to align baseline of menu with body text
+				padding: 0;
+				width: 100%;
+				a:hover {
+					border: 0;
+				}
+				img {
+					width: 100%;
+				}
 			}
 		}
 		.content {
-			margin: 0 0 2em 0;
-			padding: 0.5em;
-			.full-width {
-				margin: 0;
+			margin: 0 0 2em ($sidebar-width + 4em);
+			padding: 0 2em;
+			.post-excerpt {
+				padding: 0 2em 2em 2em;
 			}
 		}
 		.footer {
-			margin: 0;
-			padding: 0.5em;
-			text-align: center;
+			margin: 0 0 0 ($sidebar-width + 4em);
 		}
-}
-@media only screen 
-	and (max-width : 40em) {
-		.post-excerpts {
-			.post-excerpt {
-				width: auto;
-			}
 	}
-}
