@@ -6,6 +6,7 @@ description: The Fire and Lion team work from anywhere, but home is in Woodstock
 # Find us
 
 **Fire and Lion**\\
+The Bandwidth Barn\\
 3rd Floor, Block B\\
 The Woodstock Exchange\\
 66 Albert Road\\
