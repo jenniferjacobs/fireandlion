@@ -2,14 +2,15 @@
 # Complete the following four frontmatter items
 # For the image file, aim for px size 1200h630w to 1200h1200w
 # https://developers.facebook.com/docs/sharing/best-practices#images
-# and fill the entire area with colour (no white edges).
-# Type multiple categories in square brackets, comma separated
-# e.g. category: [literature, web-development]
+# We use deep-etched, 3D images with a pure-white background.
+# Include a category slug. If you need multiple categories, 
+# add them in square brackets, comma separated, e.g.
+# categories: [literature, web-development]
 
-title: 
-category: 
+title: ""
+categories: []
 excerpt: ""
-image: 
+image: ""
 ---
 
 # Title/headline
@@ -22,15 +23,8 @@ This is the story of the job.
 
 And we reckon it went well, too.
 
-Let's see another image.
-
 ![Caption]({{site.baseurl}}/images/anotherfilename.jpg)
+This is a caption.
+{:.image-with-caption}
 
-This is some more text.
-
-And this is a text-width image.
-
-![Main image]({{site.baseurl}}/images/bookdash-20150527.jpg)
-{:.text-width}
-
-Rightio.
+And this is more text.
