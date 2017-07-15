@@ -34,6 +34,7 @@ $light: #ffffff;
 @mixin smallcaps() {
 	text-transform: uppercase;
 	font-size: 0.7em;
+	font-weight: bold;
 	letter-spacing: 0.1em;
 	line-height: 100%;
 }
@@ -221,11 +222,8 @@ h2 {
 	font-size: 1.1em;
 }
 h3, h4, h5, h6 {
+	@include smallcaps();
 	font-family: $font-main;
-	font-size: 0.7em;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.075em;
 	text-align: left;
 }
 p, ol, ul, dl, td {
@@ -408,8 +406,7 @@ td {
 	justify-content: space-around;
 	img {
 		flex: 1 0 1em; // shorthand: flex-grow flex-shrink flex-basis
-		min-width: 12em;
-		// margin: 0 0.5em 0.5em 0;
+		width: 12em;
 	}
 	a {
 		border: 0;
