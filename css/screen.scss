@@ -96,20 +96,19 @@ body {
 	// width: 100%;
 	overflow-x: hidden;
 	height: auto;
-	padding: 0.3em 0.5em;
+	padding: 0.5em 0.5em;
 	.name {
 		font-family: $font-secondary;
 		font-size: 1em;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		margin: 0.3em 1em 0 0;
+		margin: 0.1em 1em 0 0;
 		float: left;
 	}
 	.nav-list {
 		ul {
 			display: inline-block; // Keeps menu together
 			margin: 0.05em 0 0 0; // aligns menu with .name
-			max-width: 90%;
 			text-align: left;
 			padding: 0; // overrides user-agent
 			li {
@@ -241,15 +240,18 @@ p, ol, ul, dl, td {
 		text-shadow: 0 0.01em $dark;
 	}
 }
-	// except no border under links in tables
-	td {
-		a {
-			border: 0;
-		}
-		a:after {
-			content: " \2192"; // 2192 is a right arrow
-		}
+// except no border under links in tables
+td {
+	a {
+		border: 0;
 	}
+	a:after {
+		content: " \2192"; // 2192 is a right arrow
+	}
+}
+ul, ol {
+	padding-left: 1em;
+}
 blockquote {
 	border-left: 5px solid $dark;
 	margin:  1em 1em 1em 0;
@@ -319,7 +321,11 @@ td {
 // Images
 
 .content {
+	// kramdown puts images in p tags, so to center them,
+	// we display block and margin auto.
 	img {
+		display: block;
+		margin: auto;
 		max-width: 100%;
 	}
 	.full-width {
@@ -396,17 +402,14 @@ td {
 // in a paragraph and tag the paragraph {:.gallery}
 
 .gallery {
-	max-width: 95%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: space-around;
 	img {
 		flex: 1 0 1em; // shorthand: flex-grow flex-shrink flex-basis
-		max-width: 10em;
-		min-width: 7em;
-		margin: 0 0.5em 0.5em 0;
-		// border: 1px solid $mid; // for white covers
+		min-width: 12em;
+		// margin: 0 0.5em 0.5em 0;
 	}
 	a {
 		border: 0;
