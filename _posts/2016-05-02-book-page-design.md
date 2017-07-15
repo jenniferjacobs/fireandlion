@@ -1,5 +1,4 @@
 ---
-# Complete the following four frontmatter items
 title: Crafted page designs
 category: literature
 excerpt: "Book design is more than typesetting, and in the most beautiful books each page is treated individually, helping to craft the story with every spread."

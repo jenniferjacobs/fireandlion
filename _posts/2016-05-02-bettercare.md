@@ -1,7 +1,7 @@
 ---
 title: Bettercare
 excerpt: "Non-profit healthcare publisher Bettercare relies on Fire and Lion to develop and maintain its library of  open-access textbooks as books, ebooks and a website."
-category: web-development
+category: multi-format
 image: bettercare-tablet-phone.jpg
 ---
 
