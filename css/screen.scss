@@ -225,6 +225,7 @@ h3, h4, h5, h6 {
 	@include smallcaps();
 	font-family: $font-main;
 	text-align: left;
+	line-height: 1.4;
 }
 p, ol, ul, dl, td {
 	margin-top: 0;
