@@ -3,17 +3,21 @@
 title: Designing book-series covers
 category: literature
 excerpt: "Series cover design means crafting each individual title within specified design parameters. Every cover needs to be strong enough to stand on its own while in keeping with the series."
-image: pm-classic-series-2.jpg
+image: african-fiction-series.jpg
 ---
 
 # Designing book-series covers
 
 Series cover design means crafting each individual title within specified design parameters, which need to be carefully considered. Every cover needs to be strong enough to stand on its own while still visually in keeping with the rest of the series. This is a unique design challenge.
 
-![Macmillan novels series]({{site.baseurl}}/images/macmillan-novels-series-covers.jpg)
+![Fiction for Africa series]({{site.baseurl}}/images/african-fiction-series.jpg)
 
-![Classic novels series]({{site.baseurl}}/images/covers-classic-novels.jpg)
+![Classic novels series]({{site.baseurl}}/images/fal-series.jpg)
 
-![Series covers]({{site.baseurl}}/images/covers-sophiatown-fatherland.jpg)
+![Classic novels series]({{site.baseurl}}/images/pm-classic-series.jpg)
 
-![Fiction for Africa series]({{site.baseurl}}/images/covers-fiction-for-africa.jpg)
+![Classic novels series]({{site.baseurl}}/images/pm-classic-series-2.jpg)
+
+![Series covers]({{site.baseurl}}/images/drama-series.jpg)
+
+![Travel series]({{site.baseurl}}/images/travel-series.jpg)

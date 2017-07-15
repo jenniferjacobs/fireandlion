@@ -1,7 +1,8 @@
 ---
-title: More Books
+title: Shaping public opinion for More Books
 excerpt: "The More Books Campaign, supported by the Publisher’s Association of South Africa, was an advocacy initiative aimed at influencing public opinion on textbook regulations."
 category: social-impact
+image: more-books-selected.jpg
 ---
 
 # Shaping public opinion for More&nbsp;Books
