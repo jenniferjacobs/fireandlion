@@ -1,9 +1,13 @@
 ---
-title: Our team
+title: About us
 description: 
 ---
 
-# Our team
+# About Fire and Lion
+
+Through love, design and technology, Fire and Lion creates and delivers books and book projects for the multi-format world. To understand what we do and why we do it, see [our portfolio]({{site.baseurl}}/portfolio) and read [our thinking]({{site.baseurl}}/thinking).
+
+## Our team
 
 **Arthur Attwell** is an award-winning thought leader in publishing innovation and technology. His ventures include [Electric Book Works](http://electricbookworks.com), [Bettercare](http://bettercare.co.za), [Book Dash](http://bookdash.org) and [Paperight](http://paperight.com). He has worked in publishing and technology for over fifteen years, and he holds a Masters degree in Creative Writing from the University of Cape Town. He is based in Cape Town. Mail [arthur@fireandlion.com](mailto:arthur@fireandlion.com)
 
