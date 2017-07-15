@@ -21,11 +21,9 @@ So the trick is to not try too hard to learn it. Rather, just start using web- a
 
 In the next thirty minutes or so I’ll pick out three big, important developments and talk about some of the tools we’re using to tackle them. This is basically show and tell.
 
-The first is text-only editing. That is, the end of word processing as we know it.
-
-The second is real-time, collaborative editing.
-
-And third, I’ll talk a little about automagical pagination: how do we edit when there’s no such thing as ‘page two’?
+1. The first is text-only editing. That is, the end of word processing as we know it.
+2. The second is real-time, collaborative editing.
+3. And third, I’ll talk a little about automagical pagination: how do we edit when there’s no such thing as ‘page two’?
 
 ## Text-only editing
 
@@ -39,11 +37,11 @@ What we’re seeing here is the separation of content (which is structured text 
 
 What are the big advantages of text-only editing?
 
-1.  Smaller, faster files.
-2.  Computers need perfect consistency (the digital age is a wonderful place for obsessive copy editors). Here the tools force our hand, and we learn to be less sloppy.
-3.  Text-only means fewer copy-paste messes (when you copy paste into a new document and the fonts go all weird), because I’m getting only and exactly what I’m seeing. Plain text. We do have learn some new tricks like unicode glyphs (there is no ‘Insert symbol’ font or formatting gimmicks, like superscripting an o for a degrees symbol). This is actually a good thing, even if it seems like more work at first while we learn its tricks.
-4.  Less file corruption, because there is simply less going on – less code to go wrong.
-5.  Better version control, especially if you learn to use a tool like Git.
+1.  **Smaller, faster files.**
+2.  **Consistency.** Computers need perfect consistency (the digital age is a wonderful place for obsessive copy editors). Here the tools force our hand, and we learn to be less sloppy.
+3.  **Less hidden mess.** Text-only means fewer copy-paste messes (when you copy paste into a new document and the fonts go all weird), because I’m getting only and exactly what I’m seeing. Plain text. We do have learn some new tricks like unicode glyphs (there is no ‘Insert symbol’ font or formatting gimmicks, like superscripting an o for a degrees symbol). This is actually a good thing, even if it seems like more work at first while we learn its tricks.
+4.  **Less file corruption.** Because there is simply less going on, there is less code to go wrong.
+5.  **Better version control.** If you use a tool like Git for version control, plain-text files give you a great view of the history of your changes.
 
 ## Collaborative editing
 
@@ -53,9 +51,9 @@ What is collaborative editing? In short, me and someone else editing the same o
 
 What are the major pros of collaborative editing?
 
-1.  It lets others watch while you work. And you can watch while others work. Publishing is weird because it’s always been a team sport played by lonely freelancers from their own home offices. Collaborative editing instantly makes the team aspect real and useful.
-2.  You can use commenting for feedback and discussion. Track changes just isn’t the same as actual live annotation. No more emailing documents with increasing repetitions of the word ‘final’ in the file name. (Also, see [Hypothesis](http://hypothes.is).)
-3.  Instant delivery of work and real-time review. As soon as you’re ready for your client to check something, share the doc and the ball’s in their court. So much editing is problem solving, and collaborative editing means the publisher-editor-designer are basically always in the room together at the same time.
+1.  **It lets others watch while you work.** And you can watch while others work. Publishing is weird because it’s always been a team sport played by lonely freelancers from their own home offices. Collaborative editing instantly makes the team aspect real and useful.
+2.  **You can use commenting for feedback and discussion.** Track changes just isn’t the same as actual live annotation. No more emailing documents with increasing repetitions of the word ‘final’ in the file name. (Also, see [Hypothesis](http://hypothes.is).)
+3.  **Instant delivery of work and real-time review.** As soon as you’re ready for your client to check something, share the doc and the ball’s in their court. So much editing is problem solving, and collaborative editing means the publisher-editor-designer are basically always in the room together at the same time.
 
 I cannot believe that Google Docs has been around for years and people are still editing in MS Word. I promise, promise, promise you want to move all your writing and editing into Google Docs. (You could also use something similarly cloud-based with live collaborative editing but, for better or for worse, most people are familiar with Google and already have Google accounts).
 
