@@ -98,14 +98,12 @@ body {
 	height: auto;
 	padding: 0.3em 0.5em;
 	.name {
-		h1 {
-			font-family: $font-secondary;
-			font-size: 1em;
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
-			margin: 0.3em 1em 0 0;
-			float: left;
-		}
+		font-family: $font-secondary;
+		font-size: 1em;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		margin: 0.3em 1em 0 0;
+		float: left;
 	}
 	.nav-list {
 		ul {
@@ -150,6 +148,12 @@ body {
 .content {
 	margin: 0 0 2em 0;
 	padding: 0.5em;
+}
+
+.page-info {
+	p {
+		font-style: italic;
+	}
 }
 
 // Page TOCs
@@ -210,7 +214,7 @@ h1 {
 h2 {
 	font-style: italic;
 	letter-spacing: 0.01em;
-	margin: 3em 0 0.5em 0;
+	margin: 2.2em 0 1em 0; // 2.2em keeps vertical rhythm with body text
 	max-width: inherit;
 }
 // Mobile styles, overriden by media queries below
@@ -336,17 +340,22 @@ td {
 	}
 }
 
-// Portfolio
-
-.portfolio {
-	background-color: $light;
-	.content {
-		color: $dark;
-	}
+// Use this for inline images that start a paragraph 
+.image-with-caption {
+    font-size: 0.9em;
+    padding: 0 1em;
+    margin: 3em 0 2em 0;
+    font-style: italic;
+    text-align: center;
+    img {
+    	margin-bottom: 0.5em;
+    }
 }
 
+// Post excerpts
+
 .post-excerpts {
-	padding-top: 2em;
+	padding-top: 1em; // Mobile, overridden below for large screens
 }
 // Styles for all screens
 .post-excerpt {
@@ -366,6 +375,13 @@ td {
 	a {
 		border: 0 !important; // must overide more specific .portfolio .content a
 	}
+}
+// The post author in an excerpt
+.post-excerpt-author {
+	font-style: italic;
+	font-size: 0.9em;
+	line-height: $line-height;
+	margin: 0.5em 0; //
 }
 // This is the text in an excerpt
 .post-excerpt-text {
@@ -406,7 +422,10 @@ td {
 	and (min-width: 60em) {
 		h1 {
 			font-size: 1.7em;
-			margin: 5.36em 0 1em 0; // top margin aligns text with Fire and Lion logo lettering
+			margin: 2em 0 1em 0;
+			&:first-of-type {
+				margin: 5.36em 0 1em 0; // top margin aligns text with Fire and Lion logo lettering
+			}
 		}
 		h2 {
 			font-size: 1.3em;
@@ -468,8 +487,19 @@ td {
 		.content {
 			margin: 0 0 2em ($sidebar-width + 4em);
 			padding: 0 2em;
+			.post-excerpts {
+				padding-top: 2em;
+			}
 			.post-excerpt {
 				padding: 0 2em 2em 2em;
+			}
+		}
+		.page-info {
+			position: absolute;
+			top: 7.5em; // just above the heading
+			p {
+				@include smallcaps();
+				font-style: normal; // override base, mobile-first styles
 			}
 		}
 		.footer {
