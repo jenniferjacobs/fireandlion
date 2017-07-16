@@ -1,11 +1,11 @@
 ---
-title: "Three things every editor should know about"
+title: "Three things every editor should know about modern publishing"
 excerpt: "Today, every passage you edit will sooner or later be read on screen. This digital world desperately needs our craft and high standards, but what does that mean for our daily work?"
 category: thinking
 author: Arthur Attwell
 ---
 
-# Three things every editor should know about
+# Three things every editor should know about modern publishing
 
 _A while ago I gave this talk at the Professional Editors Group in Cape Town._
 
