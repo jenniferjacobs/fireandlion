@@ -214,7 +214,7 @@ h1 {
 h2 {
 	font-style: italic;
 	letter-spacing: 0.01em;
-	margin: 2.2em 0 1em 0; // 2.2em keeps vertical rhythm with body text
+	margin: 2.2em 0 0 0; // 2.2em keeps vertical rhythm with body text
 	max-width: inherit;
 }
 // Mobile styles, overriden by media queries below
@@ -367,10 +367,15 @@ td {
 	h3, h4, h5 {
 		margin-bottom: 0;
 	}
+	// After the last post excerpt, we want the hr's space,
+	// but not the visible line.
+	&:last-child hr {
+		border-color: $light;
+	}
 }
 // Mobile first, overriden below
 .post-excerpt {
-	padding: 0 1em 1em 1em;
+	padding: 0 1em;
 }
  // This is the div around the image
 .post-excerpt-image {
@@ -429,7 +434,7 @@ td {
 			}
 		}
 		h2 {
-			font-size: 1.3em;
+			font-size: 1.5em;
 		}
 		.sidebar {
 			float: left;
@@ -492,7 +497,7 @@ td {
 				padding-top: 2em;
 			}
 			.post-excerpt {
-				padding: 0 2em 2em 2em;
+				padding: 0 2em;
 			}
 		}
 		.page-info {
