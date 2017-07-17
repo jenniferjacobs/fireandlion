@@ -14,9 +14,13 @@ Usually, when you think of annual reports, you might expect a pleasant but dry p
 
 For ICT Africa's report *How Ordinary People Got Connected*, we wanted to make the most of the writer's great use of narrative storytelling alongside more conventional report data. 
 
+---
+
 ![V&A Waterfront Economic Contribution report]({{ site.baseurl }}/images/va-waterfront-findings-report.jpg)
 
 For the V&A Waterfront's 'Economic Contribution' report, we could help our clients tell their story with great visual metaphors.
+
+---
 
 ![Cape Town Tourism]({{site.baseurl}}/images/cape-town-tourism-report.jpg)
 

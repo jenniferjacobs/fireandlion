@@ -12,12 +12,18 @@ Series cover design means crafting each individual title within specified design
 
 ![Fiction for Africa series]({{site.baseurl}}/images/series-thumbnail.jpg)
 
+---
+
 ![Classic novels series]({{site.baseurl}}/images/fal-series.jpg)
 
-![Classic novels series]({{site.baseurl}}/images/pm-classic-series.jpg)
+---
 
 ![Classic novels series]({{site.baseurl}}/images/pm-classic-series-2.jpg)
 
+---
+
 ![Series covers]({{site.baseurl}}/images/drama-series.jpg)
+
+---
 
 ![Travel series]({{site.baseurl}}/images/travel-series.jpg)
