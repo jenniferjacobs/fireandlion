@@ -94,7 +94,6 @@ body {
 .sidebar {
 	float: none;
 	position: static;
-	// width: 100%;
 	overflow-x: hidden;
 	height: auto;
 	padding: 0.5em 0.5em;
@@ -166,6 +165,48 @@ body {
 	}
 }
 
+// Page navigation
+
+.page-navigation {
+	display: flex;
+	justify-content: space-between;
+	font-style: italic;
+    font-size: 0.9em;
+    letter-spacing: 0.01em;
+    width: 90%;
+    margin: auto;
+	a {
+		text-decoration: none;
+		color: inherit;
+		display: inline-flex;
+		.previous-title,
+		.next-title,
+		.back-text {
+			border-bottom: 1px dashed $light; // to occupy space to be taken up on hover
+			&:hover {
+				border-bottom: 1px dashed $dark;
+			}
+		}
+	}
+	.previous {
+		width: 40%;
+	}
+	.back {
+		width: 20%;
+		text-align: center;
+	}
+	.next {
+		width: 40%;
+		text-align: right;
+	}
+	.previous-arrow {
+		margin-right: 0.5em;
+	}
+	.next-arrow {
+		margin-left: 0.5em;
+	}
+}
+
 // Footer
 
 // Styles for all sizes
@@ -179,7 +220,7 @@ body {
 		border: 0;
 		display: inline-block;
 		&:hover {
-			border-bottom: 1px dashed #ffffff;
+			border-bottom: 1px dashed $light;
 		}
 	}
 }
