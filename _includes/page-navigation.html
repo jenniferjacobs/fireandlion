@@ -1,0 +1,29 @@
+{% comment %}If this is a post and it's in a category,
+add links to the next and previous posts.{% endcomment %}
+{% if page.categories %}
+
+    <hr>
+
+    <div class="page-navigation">
+
+        <div class="previous">
+        {% if page.previous.url %}
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">
+                <span class="previous-arrow">←</span><span class="previous-title">{{ page.previous.title }}</span></a>
+        {% endif %}
+        </div>
+
+        <div class="back">
+            <a href="javascript:history.back()"><span class="back-text">Back</span></a>
+        </div>
+
+        <div class="next">
+        {% if page.next.url %}
+            <a href="{{ site.baseurl }}{{page.next.url}}">
+                <span class="next-title">{{page.next.title}}</span><span class="next-arrow">→</span></a>
+        {% endif %}
+        </div>
+
+    </div>
+
+{% endif %}
