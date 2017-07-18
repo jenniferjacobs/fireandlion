@@ -7,6 +7,16 @@ baseurl: /fireandlion
 # Set pretty permalinks, not Jekyll default 'date'
 permalink: pretty
 
+# Jekyll shouldn't process these files
+exclude: [
+Gemfile,
+Gemfile.lock,
+package.json,
+node_modules,
+gulpfile.js,
+eslint.json,
+]
+
 # Set default page layout for all pages
 defaults:
   -
