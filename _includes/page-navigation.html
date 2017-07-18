@@ -12,21 +12,21 @@ to any posts in the 'thinking' category.{% endcomment %}
         {% unless page.previous.categories contains "thinking" %}
             <a href="{{ site.baseurl }}{{ page.previous.url }}">
                 <span class="previous-arrow">←</span>
-                {% comment %}<span class="previous-title">{{ page.previous.title }}</span>{% endcomment %}
+                <span class="previous-title">Previous</span>
             </a>
         {% endunless %}
         {% endif %}
         </div>
 
         <div class="back">
-            <a href="javascript:history.back()"><span class="back-text">Back to portfolio</span></a>
+            <a href="javascript:history.back()"><span class="back-text">Back</span></a>
         </div>
 
         <div class="next">
         {% if page.next.url %}
         {% unless page.next.categories contains "thinking" %}
             <a href="{{ site.baseurl }}{{page.next.url}}">
-                {% comment %}<span class="next-title">{{page.next.title}}</span>{% endcomment %}
+                <span class="next-title">Next</span>
                 <span class="next-arrow">→</span>
             </a>
         {% endunless %}
