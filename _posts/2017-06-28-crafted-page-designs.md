@@ -15,9 +15,9 @@ Book design is more than typesetting, and in the most beautiful books each page 
 
 ![Go Home or Die Here]({{site.baseurl}}/images/book-design-go-home.jpg)
 
-***
+<!-- ***
 
-![Ogilvy]({{site.baseurl}}/images/ogilvy-book-spreads.jpg)
+![Ogilvy]({{site.baseurl}}/images/ogilvy-book-spreads.jpg) -->
 
 ***
 
