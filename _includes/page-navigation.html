@@ -1,5 +1,6 @@
 {% comment %}If this is a post and it's in a category,
-add links to the next and previous posts.{% endcomment %}
+add links to the next and previous posts. It does not link
+to any posts in the 'thinking' category.{% endcomment %}
 {% if page.categories %}
 
     <hr>
@@ -8,19 +9,27 @@ add links to the next and previous posts.{% endcomment %}
 
         <div class="previous">
         {% if page.previous.url %}
+        {% unless page.previous.categories contains "thinking" %}
             <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                <span class="previous-arrow">←</span><span class="previous-title">{{ page.previous.title }}</span></a>
+                <span class="previous-arrow">←</span>
+                {% comment %}<span class="previous-title">{{ page.previous.title }}</span>{% endcomment %}
+            </a>
+        {% endunless %}
         {% endif %}
         </div>
 
         <div class="back">
-            <a href="javascript:history.back()"><span class="back-text">Back</span></a>
+            <a href="javascript:history.back()"><span class="back-text">Back to portfolio</span></a>
         </div>
 
         <div class="next">
         {% if page.next.url %}
+        {% unless page.next.categories contains "thinking" %}
             <a href="{{ site.baseurl }}{{page.next.url}}">
-                <span class="next-title">{{page.next.title}}</span><span class="next-arrow">→</span></a>
+                {% comment %}<span class="next-title">{{page.next.title}}</span>{% endcomment %}
+                <span class="next-arrow">→</span>
+            </a>
+        {% endunless %}
         {% endif %}
         </div>
 
