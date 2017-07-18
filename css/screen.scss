@@ -187,16 +187,20 @@ body {
 				border-bottom: 1px dashed $dark;
 			}
 		}
+		.previous-arrow,
+		.next-arrow {
+			font-style: normal;
+		}
 	}
 	.previous {
-		width: 40%;
+		width: 20%;
 	}
 	.back {
-		width: 20%;
+		width: 40%;
 		text-align: center;
 	}
 	.next {
-		width: 40%;
+		width: 20%;
 		text-align: right;
 	}
 	.previous-arrow {
@@ -407,11 +411,6 @@ td {
 .post-excerpt {
 	h3, h4, h5 {
 		margin-bottom: 0;
-	}
-	// After the last post excerpt, we want the hr's space,
-	// but not the visible line.
-	&:last-child hr {
-		border-color: $light;
 	}
 }
 // Mobile first, overriden below
