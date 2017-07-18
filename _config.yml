@@ -9,9 +9,11 @@ permalink: pretty
 
 # Jekyll shouldn't process these files
 exclude: [
+README.md,
 Gemfile,
 Gemfile.lock,
 package.json,
+package-lock.json,
 node_modules,
 gulpfile.js,
 eslint.json,
