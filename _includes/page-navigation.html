@@ -19,10 +19,6 @@ to any posts in the 'thinking' category.{% endcomment %}
                 {% endif %}
             </div>
 
-            <div class="back">
-                <a href="javascript:history.back()"><span class="back-text">Back</span></a>
-            </div>
-
             <div class="next">
                 {% if page.next.url and page.next.categories contains "thinking" %}
                     <a href="{{ site.baseurl }}{{page.next.url}}">
