@@ -1,13 +1,13 @@
 ---
-title: The problem with self-publishing
+title: The dilemma in self-publishing
 category: thinking
 author: Arthur Attwell
-excerpt: What self-publishers lack is not skill, but the relationship between an author and a publisher.
+excerpt: What self-publishers miss is not skill, but the relationship between an author and a publisher.
 ---
 
 # The dilemma in self-publishing
 
-*What self-publishers lack is not skill, but the relationship between an author and a publisher.*
+*What self-publishers miss is not skill, but the relationship between an author and a publisher.*
 {:.pullquote}
 
 I make a lot of books, so authors often ask me: should I find a publisher or self-publish? And I usually say, ‘publishers don’t add any skills you can’t hire in yourself.’
