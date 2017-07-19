@@ -5,7 +5,7 @@ author: Arthur Attwell
 excerpt: What self-publishers lack is not skill, but the relationship between an author and a publisher.
 ---
 
-# The problem with self-publishing
+# The dilemma in self-publishing
 
 *What self-publishers lack is not skill, but the relationship between an author and a publisher.*
 {:.pullquote}
