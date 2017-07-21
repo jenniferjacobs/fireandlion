@@ -18,8 +18,8 @@
   "homepage": "https://github.com/fireandlion/fireandlion#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-newer": "^1.3.0",
     "gulp-eslint": "^3.0.1",
+    "gulp-newer": "^1.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-responsive-images": "0.0.3",
     "gulp-uglify": "^2.1.2",
