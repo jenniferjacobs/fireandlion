@@ -26,7 +26,7 @@ Every book cover has to tell the story of a story, drawing you in without giving
 ![Marginal Spaces]({{site.baseurl}}/images/marginal-spaces.jpg)
 ![The Missing Piece]({{site.baseurl}}/images/missing-piece.jpg)
 ![Natures of Africa]({{site.baseurl}}/images/natures-of-africa.jpg)
-<!-- ![Own Your Space]({{site.baseurl}}/images/own-your-space.jpg) -->
+![Own Your Space]({{site.baseurl}}/images/own-your-space.jpg)
 ![Place of Thorns]({{site.baseurl}}/images/place-of-thorns.jpg)
 ![Race Otherwise]({{site.baseurl}}/images/race-otherwise.jpg)
 ![Recognition]({{site.baseurl}}/images/recognition.jpg)

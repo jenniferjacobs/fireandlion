@@ -1,3 +1,6 @@
+// NOTE: gulp-responsive-images requires ImageMagick to be installed.
+// See https://github.com/dcgauld/gulp-responsive-images for details.
+
 'use strict';
 
 var gulp = require('gulp'),
