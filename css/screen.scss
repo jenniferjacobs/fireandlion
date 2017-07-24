@@ -168,13 +168,10 @@ body {
 // Page navigation
 
 .page-navigation {
-	display: flex;
-	justify-content: space-between;
 	font-style: italic;
     font-size: 0.9em;
-    letter-spacing: 0.01em;
-    width: 90%;
-    margin: auto;
+	letter-spacing: 0.01em;
+	padding: 0 2em;
 	a {
 		text-decoration: none;
 		color: inherit;
@@ -183,39 +180,55 @@ body {
 		& span:hover {
 			border-bottom: 1px dashed $dark;
 		}
+		// reserve space for the dark border-bottom
+		& span,
 		& .previous-arrow:hover,
 		& .next-arrow:hover {
 			border-bottom: 1px dashed $light;
 		}
 	}
-	.previous {
-		width: 50%;
-	}
-	.next {
-		width: 50%;
-		text-align: right;
-	}
-	.previous-arrow {
-		font-style: normal;
-		margin: -0.15em 0.5em 0 0;
-	}
-	.next-arrow {
-		font-style: normal;
-		margin: -0.15em 0 0 0.5em;
+	.page-navigation-prev-next {
+		display: flex;
+		justify-content: space-between;
+	    margin: auto;
+		.previous {
+			width: 50%;
+		}
+		.next {
+			width: 50%;
+			text-align: right;
+		}
+		.previous-arrow {
+			font-style: normal;
+			margin: -0.15em 0.5em 0 0;
+		}
+		.next-arrow {
+			font-style: normal;
+			margin: -0.15em 0 0 0.5em;
+		}
 	}
 	.page-navigation-categories {
 		margin: auto;
+		@include smallcaps();
+		font-style: normal;
+		font-weight: normal;
 		.page-navigation-categories-list {
 			list-style-type: none;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-around;
+			justify-content: space-between;
+			text-align: center;
 			li {
-				display: inline-block;
-				margin-right: 1em;
+				flex-basis: 8em; // keeps the cats side by side
+				width: 8em;
+				margin: 0 auto 0.5em auto;
 			}
-			a:hover {
-				border-bottom: 1px dashed $dark;
+			a {
+				padding: 0 0 0.25em 0; // reserve space for padding on hover
+				&:hover {
+					border-bottom: 1px dashed $dark;
+					padding: 0 0 0.25em 0;
+				}
 			}
 		}
 	}
