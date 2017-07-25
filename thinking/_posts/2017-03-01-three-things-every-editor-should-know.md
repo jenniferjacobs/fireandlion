@@ -39,7 +39,7 @@ What are the big advantages of text-only editing?
 
 1.  **Smaller, faster files.**
 2.  **Consistency.** Computers need perfect consistency (the digital age is a wonderful place for obsessive copy editors). Here the tools force our hand, and we learn to be less sloppy.
-3.  **Less hidden mess.** Text-only means fewer copy-paste messes (when you copy paste into a new document and the fonts go all weird), because I’m getting only and exactly what I’m seeing. Plain text. We do have learn some new tricks like unicode glyphs (there is no ‘Insert symbol’ font or formatting gimmicks, like superscripting an o for a degrees symbol). This is actually a good thing, even if it seems like more work at first while we learn its tricks.
+3.  **Less hidden mess.** Text-only means fewer copy-paste messes (when you copy paste into a new document and the fonts go all weird), because I’m getting only and exactly what I’m seeing. Plain text. We do have to learn some new tricks like unicode glyphs (there is no ‘Insert symbol’ font or formatting gimmicks, like superscripting an o for a degrees symbol). This is actually a good thing, even if it seems like more work at first while we learn its tricks.
 4.  **Less file corruption.** Because there is simply less going on, there is less code to go wrong.
 5.  **Better version control.** If you use a tool like Git for version control, plain-text files give you a great view of the history of your changes.
 

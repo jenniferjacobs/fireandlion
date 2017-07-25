@@ -10,29 +10,57 @@ to any posts in the 'thinking' category.{% endcomment %}
         {% comment %}In the Thinking category, we want next/previous page navigation{% endcomment %}
         {% if page.categories contains "thinking" %}
 
-            <div class="previous">
-                {% if page.previous.url and page.previous.categories contains "thinking" %}
-                    <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                        <span class="previous-arrow">←</span>
-                        <span class="previous-title">{{ page.previous.title }}</span>
-                    </a>
-                {% endif %}
-            </div>
+            <div class="page-navigation-prev-next">
 
-            <div class="next">
-                {% if page.next.url and page.next.categories contains "thinking" %}
-                    <a href="{{ site.baseurl }}{{page.next.url}}">
-                        <span class="next-title">{{ page.next.title }}</span>
-                        <span class="next-arrow">→</span>
-                    </a>
-                {% endif %}
-            </div>
+                <div class="previous">
+                    {% if page.previous.url and page.previous.categories contains "thinking" %}
+                        <a href="{{ site.baseurl }}{{ page.previous.url }}">
+                            <span class="previous-arrow">←</span>
+                            <span class="previous-title">{{ page.previous.title }}</span>
+                        </a>
+                    {% endif %}
+                </div>
+
+                <div class="next">
+                    {% if page.next.url and page.next.categories contains "thinking" %}
+                        <a href="{{ site.baseurl }}{{page.next.url}}">
+                            <span class="next-title">{{ page.next.title }}</span>
+                            <span class="next-arrow">→</span>
+                        </a>
+                    {% endif %}
+                </div>
+
+            </div><!--.page-navigation-->
 
         {% else %}
 
+            <div class="page-navigation-prev-next">
+
+                <div class="previous">
+                    {% if page.previous.url and page.previous.categories contains "portfolio" %}
+                        <a href="{{ site.baseurl }}{{ page.previous.url }}">
+                            <span class="previous-arrow">←</span>
+                            <span class="previous-title">{{ page.previous.title }}</span>
+                        </a>
+                    {% endif %}
+                </div>
+
+                <div class="next">
+                    {% if page.next.url and page.next.categories contains "portfolio" %}
+                        <a href="{{ site.baseurl }}{{page.next.url}}">
+                            <span class="next-title">{{ page.next.title }}</span>
+                            <span class="next-arrow">→</span>
+                        </a>
+                    {% endif %}
+                </div>
+
+            </div><!--.page-navigation-->
+
+            <hr>
+
             {% comment %}In other categories, we want a list of categories to click on{% endcomment %}
             <div class="page-navigation-categories">
-                    
+
                 <ul class="page-navigation-categories-list">
 
                     {% for category in site.categories reversed %}
@@ -55,6 +83,6 @@ to any posts in the 'thinking' category.{% endcomment %}
 
         {% endif %}
 
-    </div>
+    </div><!--.page-navigation-->
 
 {% endif %}
