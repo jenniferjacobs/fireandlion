@@ -1,6 +1,6 @@
 ---
 # Complete the following four frontmatter items
-title: More than an annual report
+title: So much more than an annual report
 category: corporate-publications
 excerpt: "Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational acheivements. We've been lucky to work with organisations who want to go in another direction."
 image: corp-pub-feature.jpg
