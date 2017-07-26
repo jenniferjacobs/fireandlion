@@ -1,32 +1,18 @@
 <!doctype html>
 <html>
 <head>
-	<title>{{ site.name }}: {{ page.title }}</title>
+	<title>{{ site.data.settings.name }}: {{ page.title }}</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
-	<meta property="og:title" content="{{ site.name }}: {{ page.title }}" />
+	<meta property="og:title" content="{{ site.data.settings.name }}: {{ page.title }}" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="{{ site.liveurl }}{{ page.url }}" />
-	<meta property="og:image" content="{{ site.liveurl }}/images/{{ page.image }}" />
+	<meta property="og:url" content="{{ site.data.settings.url }}{{ page.url }}" />
+	<meta property="og:image" content="{{ site.data.settings.url }}/images/{% if page.image %}{{ page.image }}{% else %}{{ site.data.settings.image }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
-	<meta property="og:site_name" content="{{ site.name }}" />
+	<meta property="og:site_name" content="{{ site.data.settings.name }}" />
 	
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/screen.css" />
-	
-	<!--Montserrat bold and Crimson normal, italic, semibold -->
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Crimson+Text:400,400italic,600' rel='stylesheet' type='text/css'>
-	
-	<!--Google Analytics-->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-71347024-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
 	
 	<!-- Icons created with http://realfavicongenerator.net/ -->
 	<link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/images/icons/apple-touch-icon-57x57.png">
@@ -55,16 +41,17 @@
 <div class="wrapper">
 
 <div class="sidebar">
+	<div class="name">
+		<a href="{{site.baseurl}}/">
+			{{ site.data.settings.name }}
+		<a href="{{site.baseurl}}/">
+	</div>
 	<div class="logo">
-		<a href="{{site.baseurl}}/"><img alt="Fire and Lion" src="{{site.baseurl}}/images/fire-and-lion-logo-white-on-black.gif" /></a>
+		<a href="{{site.baseurl}}/">
+			<img alt="{{ site.data.settings.name }}" src="{{site.baseurl}}/images/{{ site.data.settings.logo }}" />
+		</a>
 	</div>
-	<div class="nav-list">
-		<ul>
-			<li><a href="{{site.baseurl}}/">Home</a></li>
-			<li><a href="{{site.baseurl}}/portfolio">Portfolio</a></li>
-			<li><a href="{{site.baseurl}}/team">Team</a></li>
-		</ul>
-	</div>
+	{% include nav.html %}
 </div><!--.sidebar-->
 
 <div class="masthead">

@@ -1,0 +1,9 @@
+{% comment %}Page meta: information about a page displayed on selected pages{% endcomment %}
+
+<div id="page-info" class="page-info">
+
+{% if page.category contains "thinking" %}
+    <p>{{ page.author }}, {{ page.date | date: "%e %B %Y" }}</p>
+{% endif %}
+
+</div>
