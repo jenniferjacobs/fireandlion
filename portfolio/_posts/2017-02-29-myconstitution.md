@@ -5,7 +5,7 @@ category: multi-format
 image: myconstitution_feature.jpg
 ---
 
-# Making the Constitution truly accessible
+# Making the Constitution truly&nbsp;accessible
 
 ![MyConstitution mobile]({{ site.baseurl }}/images/myconstitutions_mobile.jpg)
 
