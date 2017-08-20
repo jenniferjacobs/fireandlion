@@ -3,6 +3,7 @@ title: "Literature for a multi-format world"
 excerpt: "Our work for renowned publishers, such as Pan Macmillan, incorporates a balance of technology and design. The age-old craft of creating a beautiful printed book is translated into digital media."
 category: multi-format
 image: the-park-feature.jpg
+order: 3
 ---
 
 # Literature for a multi-format world

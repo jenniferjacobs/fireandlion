@@ -26,3 +26,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+
+# Create portfolio collection
+collections:
+  portfolio:
+    output: true

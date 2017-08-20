@@ -1,6 +1,5 @@
 {% comment %}If this is a post and it's in a category,
-add links to the next and previous posts. It does not link
-to any posts in the 'thinking' category.{% endcomment %}
+add links to the next and previous posts.{% endcomment %}
 {% if page.categories %}
 
     <hr>
@@ -36,23 +35,7 @@ to any posts in the 'thinking' category.{% endcomment %}
 
             <div class="page-navigation-prev-next">
 
-                <div class="previous">
-                    {% if page.previous.url and page.previous.categories contains "portfolio" %}
-                        <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                            <span class="previous-arrow">←</span>
-                            <span class="previous-title">{{ page.previous.title }}</span>
-                        </a>
-                    {% endif %}
-                </div>
-
-                <div class="next">
-                    {% if page.next.url and page.next.categories contains "portfolio" %}
-                        <a href="{{ site.baseurl }}{{page.next.url}}">
-                            <span class="next-title">{{ page.next.title }}</span>
-                            <span class="next-arrow">→</span>
-                        </a>
-                    {% endif %}
-                </div>
+                {% include collection-pagination.html %}
 
             </div><!--.page-navigation-->
 

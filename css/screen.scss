@@ -177,6 +177,7 @@ body {
 		color: inherit;
 		display: inline-flex;
 		border-bottom: 1px dashed $light; // to occupy space to be taken up on hover
+		max-width: calc(100% - 2em); // leaves space for arrow
 		& span:hover {
 			border-bottom: 1px dashed $dark;
 		}

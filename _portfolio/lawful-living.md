@@ -3,6 +3,7 @@ title: "Making the law readily available and easy to understand"
 excerpt: "How can we live as law-abiding members of society if its rules are a mystery? This book changes that."
 category: multi-format
 image: lawfulliving-feature.jpg
+order: 2
 ---
 
 # Making the law readily available and easy to understand
