@@ -3,6 +3,7 @@ title: "Making the Constitution truly accessible"
 excerpt: "In partnership with Electric Book Works and the CSIR we created a public-domain version of the Constitution in all eleven official South African languages."
 category: multi-format
 image: myconstitution_feature.jpg
+order: 4
 ---
 
 # Making the Constitution truly&nbsp;accessible
