@@ -152,6 +152,19 @@ body {
 .page-info {
 	p {
 		font-style: italic;
+		&.page-info-portfolio {
+			text-transform: lowercase;
+			&:before {
+				content: "In ";
+				text-transform: none;
+			}
+		}
+	}
+	a {
+		border-color: transparent;
+		&:hover {
+			border-color: $dark;
+		}
 	}
 }
 
@@ -568,8 +581,16 @@ td {
 			position: absolute;
 			top: 7.5em; // just above the heading
 			p {
+				// override base, mobile-first styles
 				@include smallcaps();
-				font-style: normal; // override base, mobile-first styles
+				font-style: normal;
+				&.page-info-portfolio {
+					@include smallcaps();
+					&:before {
+						content: normal;
+						text-transform: none;
+					}
+				}
 			}
 		}
 		.footer {
