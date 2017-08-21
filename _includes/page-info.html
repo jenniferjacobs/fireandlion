@@ -2,8 +2,26 @@
 
 <div id="page-info" class="page-info">
 
+{% comment %}For the blog, show author and date info{% endcomment %}
 {% if page.category contains "thinking" %}
-    <p>{{ page.author }}, {{ page.date | date: "%e %B %Y" }}</p>
+    <p class="page-info-thinking">{{ page.author }}, {{ page.date | date: "%e %B %Y" }}</p>
+{% endif %}
+
+{% comment %}For the portfolio, show the category{% endcomment %}
+{% if page.collection == "portfolio" %}
+
+{% comment %}Get an array of only the relevant categories for the page{% endcomment %}
+{% assign categories = site.data.categories | where_exp: "cat", "page.category contains cat.slug" %}
+
+    {% comment %}Make a list of category labels{% endcomment %}
+    <p class="page-info-portfolio">
+        {% for category in categories %}
+            <a href="{{ site.baseurl }}/portfolio#{{ category.slug }}">
+                {{ category.label }}{% unless forloop.last %}, {% endunless %}
+            </a>
+        {% endfor %}
+    </p>
+
 {% endif %}
 
 </div>
