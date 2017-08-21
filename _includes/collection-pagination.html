@@ -4,7 +4,7 @@ and https://gist.github.com/johnfmorton/6c395361d259b23409ee6559fd909d5c{% endco
 {% capture the_collection %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
-  {% assign document = site[the_collection] %}
+  {% assign document = site[the_collection] | sort: "order" %}
 {% endif %}
 
 {% comment %}Back to start after last link{% endcomment %}
