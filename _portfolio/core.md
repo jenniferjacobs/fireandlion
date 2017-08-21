@@ -16,7 +16,7 @@ This method of book production streamlines the publishing process in revolutiona
 
 ![The Economy book cover]({{ site.baseurl }}/images/core_book-cover.jpg)
 
-In the page design of *The Economy*, our first priority was to create a beautiful book. We intentionally designed it to look less like a conventional textbook and more like an informative and visually engaging resource. Our designer director, Karen Lilje, conceptualised it on paper and then realised it on screen. Once the design was finalised, our technical director Arthur Attwell recreated it with CSS, the code stylesheets that would control page layout for print and screen – effectively automating 95 per cent of a traditional typesetter's role.
+In the page design of *The Economy*, our first priority was to create a beautiful book. We intentionally designed it to look less like a conventional textbook and more like an informative and visually engaging resource. Our design director, Karen Lilje, conceptualised it on paper and then realised it on screen. Once the design was finalised, our technical director Arthur Attwell recreated it with CSS, the code stylesheets that would control page layout for print and screen – effectively automating 95 per cent of a traditional typesetter's role.
 
 ![The Economy pages]({{ site.baseurl }}/images/core-spreads.jpg)
 
