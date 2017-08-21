@@ -1,6 +1,6 @@
 ---
 title: Visual identities
-category: corporate-publications
+category: corporate-communication
 excerpt: "We often create brands for our clients' publications. A great identity is not only a clever image: it creates story-like connections in our brains that draw us in and form stronger memories."
 image: visual-identity-hybrid.jpg
 order: 2
