@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 style: portfolio
-show-categories: literature, corporate-publications, social-impact, multi-format
+show-categories: literature, corporate-communication, social-impact, multi-format
 ---
 
 # A selection of our work
