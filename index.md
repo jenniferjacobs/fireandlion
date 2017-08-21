@@ -1,6 +1,6 @@
 ---
 title: Home
-description: We help clients tell complex, powerful stories as books, ebooks and websites. Our smart, friendly perfectionists provide world-class development, design and production for your content.
+description: We help publishers and impact organisations tell powerful stories, using world-class design and sensible technology to produce books, ebooks and websites.
 style: home
 ---
 
