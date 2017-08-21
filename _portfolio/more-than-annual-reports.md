@@ -4,7 +4,7 @@ title: So much more than an annual report
 category: corporate-communication
 excerpt: "Usually, when you think of annual reports, you might expect a pleasant but dry presentation of organisational achievements. We've been lucky to work with organisations who want to go in another direction."
 image: corp-pub-feature.jpg
-order: 1
+order: 40
 ---
 
 # So much more than an annual&nbsp;report

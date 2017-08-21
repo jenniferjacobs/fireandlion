@@ -3,6 +3,7 @@ title: Making free children's books with Book Dash
 excerpt: "Book Dash publishes a range of children’s books in many languages. We worked with Worldreader to turn these into reusable HTML and ebooks that could be read on any device."
 category: social-impact
 image: bookdash-feature.jpg
+order: 60
 ---
 
 # Making free children's books with Book&nbsp;Dash
