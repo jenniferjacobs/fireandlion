@@ -1,6 +1,5 @@
 ---
 title: About us
-description: 
 ---
 
 # About Fire and Lion

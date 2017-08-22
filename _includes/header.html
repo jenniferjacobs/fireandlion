@@ -9,7 +9,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{{ site.data.settings.url }}{{ page.url }}" />
 	<meta property="og:image" content="{{ site.data.settings.url }}/images/{% if page.image %}{{ page.image }}{% else %}{{ site.data.settings.image }}{% endif %}" />
-	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description | markdownify | strip_html }}{% else %}{{ page.excerpt | markdownify | strip_html }}{% endif %}" />
 	<meta property="og:site_name" content="{{ site.data.settings.name }}" />
 	
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/screen.css" />

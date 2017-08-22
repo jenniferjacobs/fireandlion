@@ -1,6 +1,5 @@
 {% comment %}If this is a post and it's in a category,
-add links to the next and previous posts. It does not link
-to any posts in the 'thinking' category.{% endcomment %}
+add links to the next and previous posts.{% endcomment %}
 {% if page.categories %}
 
     <hr>
@@ -36,50 +35,9 @@ to any posts in the 'thinking' category.{% endcomment %}
 
             <div class="page-navigation-prev-next">
 
-                <div class="previous">
-                    {% if page.previous.url and page.previous.categories contains "portfolio" %}
-                        <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                            <span class="previous-arrow">←</span>
-                            <span class="previous-title">{{ page.previous.title }}</span>
-                        </a>
-                    {% endif %}
-                </div>
-
-                <div class="next">
-                    {% if page.next.url and page.next.categories contains "portfolio" %}
-                        <a href="{{ site.baseurl }}{{page.next.url}}">
-                            <span class="next-title">{{ page.next.title }}</span>
-                            <span class="next-arrow">→</span>
-                        </a>
-                    {% endif %}
-                </div>
+                {% include collection-pagination.html %}
 
             </div><!--.page-navigation-->
-
-            <hr>
-
-            {% comment %}In other categories, we want a list of categories to click on{% endcomment %}
-            <div class="page-navigation-categories">
-
-                <ul class="page-navigation-categories-list">
-
-                    {% for category in site.categories reversed %}
-
-                            {% for category-entry in site.data.categories %}
-                                {% if category-entry.slug == category[0] %}
-                                    {% unless category-entry.slug == "thinking" %}
-                                        <li class="page-navigation-category">
-                                            <a href="{{ site.baseurl }}/portfolio/#{{ category-entry.slug }}">{{ category-entry.label }}</a>
-                                        </li>
-                                    {% endunless %}
-                                {% endif %}
-                            {% endfor %}
-
-                    {% endfor %}
-
-                </ul>
-
-            </div>
 
         {% endif %}
 
