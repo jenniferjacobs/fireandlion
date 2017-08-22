@@ -496,6 +496,18 @@ td {
 	}
 }
 
+// Team bios
+
+.bio {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	img {
+		max-width: 5em;
+		float: right;
+		margin-top: -1em;
+	}
+}
+
 // This for Windows (see https://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
 @viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
