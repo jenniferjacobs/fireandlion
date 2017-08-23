@@ -1,13 +1,14 @@
 ---
 title: Multi-format, open-access healthcare
-excerpt: "Non-profit healthcare publisher Bettercare relies on Fire and Lion to develop and maintain its library of  open-access textbooks as books, ebooks and a website."
+excerpt: "Non-profit healthcare publisher Bettercare relies on Fire and Lion to develop and maintain its library of open-access textbooks as books, ebooks and a website."
 category: multi-format
 image: bettercare-tablet-phone.jpg
+order: 5
 ---
 
 # Multi-format, open-access healthcare
 
-Non-profit healthcare publisher [Bettercare](http://bettercare.co.za) relies on Fire and Lion to develop and maintain its library of  open-access textbooks as books, ebooks and a website.
+Non-profit healthcare publisher [Bettercare](http://bettercare.co.za) relies on Fire and Lion to develop and maintain its library of open-access textbooks as books, ebooks and a website.
 
 ![Bettercare on tablet and phone]({{ site.baseurl}}/images/bettercare-tablet-phone.jpg)
 

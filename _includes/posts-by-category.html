@@ -13,7 +13,7 @@
 {% for category in site.data.categories %}
 
     {% comment %}If a category is one of those assigned to this page,
-    we'll show the categeory details and post excerpts for it.{% endcomment %}
+    we'll show the category details and post excerpts for it.{% endcomment %}
     {% if page-show-categories contains category.slug %}
 
         {% comment %}Check if we should hide the category title (e.g. on one-category pages){% endcomment %}
@@ -30,10 +30,26 @@
 
         <div class="post-excerpts">
 
-            {% comment %}Loop through the posts in this category and output the excerpt{% endcomment %}
-            {% for post in site.categories.[category.slug] %}
-            {% include post-excerpt.html more-text=more-text %}
-            {% endfor %}
+            {% comment %}If this is a portfolio page, use the portfolio collection{% endcomment %}
+            {% if page.style == "portfolio" %}
+
+                {% comment %}Sort the posts, output the excerpt of each per category{% endcomment %}
+                {% assign portfolio = site.portfolio | sort: "order" %}
+                {% for post in portfolio %}
+                    {% if post.category contains category.slug %}
+                        {% include post-excerpt.html more-text=more-text %}
+                    {% endif %}
+                {% endfor %}
+
+            {% comment %}Otherwise, use posts{% endcomment %}
+            {% else %}
+
+                {% comment %}Loop through the posts in this category and output the excerpt{% endcomment %}
+                {% for post in site.categories.[category.slug] %}
+                {% include post-excerpt.html more-text=more-text %}
+                {% endfor %}
+
+            {% endif %}
 
         </div><!--.post-excerpts-->
 

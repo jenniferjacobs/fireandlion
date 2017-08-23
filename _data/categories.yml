@@ -1,15 +1,15 @@
-- label: Literature
-  slug: literature
-  description: >
-    **High-end literature is the pinnacle of storytelling** for storytelling's sake. Crafting the beautiful books that carry it is our guilty pleasure, the thing we'd do all day, every day if we could. We're privileged to work with many incredible publishing companies.
-- label: Corporate publications
-  slug: corporate-publications
-  description: >
-    **Corporate publications don't have to be dry;** they can draw the reader in like the best books in a bookstore. We've worked with dozens of clients to create publications we aren't just proud of, but actually return to again and again, because reading them is just lovely.
 - label: Multiple formats
   slug: multi-format
   description: >
     **Many of our projects span web, ebook and print formats** of the same content. And some projects are first and foremost websites. We specialise in building fast, simple, mobile-friendly websites that carry large amounts of content.
+- label: Literature
+  slug: literature
+  description: >
+    **High-end literature is the pinnacle of storytelling** for storytelling's sake. Crafting the beautiful books that carry it is our guilty pleasure, the thing we'd do all day, every day if we could. We're privileged to work with many incredible publishing companies.
+- label: Corporate communication
+  slug: corporate-communication
+  description: >
+    **Corporate communication doesn't have to be dry.** An organisation's publications can draw the reader in like the best books in a bookstore. We've worked with dozens of clients to create publications we aren't just proud of, but actually return to again and again, because reading them is just lovely.
 - label: Social impact
   slug: social-impact
   description: >

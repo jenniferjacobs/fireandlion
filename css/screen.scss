@@ -152,6 +152,19 @@ body {
 .page-info {
 	p {
 		font-style: italic;
+		&.page-info-portfolio {
+			text-transform: lowercase;
+			&:before {
+				content: "In ";
+				text-transform: none;
+			}
+		}
+	}
+	a {
+		border-color: transparent;
+		&:hover {
+			border-color: $dark;
+		}
 	}
 }
 
@@ -177,6 +190,7 @@ body {
 		color: inherit;
 		display: inline-flex;
 		border-bottom: 1px dashed $light; // to occupy space to be taken up on hover
+		max-width: calc(100% - 2em); // leaves space for arrow
 		& span:hover {
 			border-bottom: 1px dashed $dark;
 		}
@@ -482,6 +496,18 @@ td {
 	}
 }
 
+// Team bios
+
+.bio {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	img {
+		max-width: 5em;
+		float: right;
+		margin-top: -1em;
+	}
+}
+
 // This for Windows (see https://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
 @viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
@@ -567,8 +593,16 @@ td {
 			position: absolute;
 			top: 7.5em; // just above the heading
 			p {
+				// override base, mobile-first styles
 				@include smallcaps();
-				font-style: normal; // override base, mobile-first styles
+				font-style: normal;
+				&.page-info-portfolio {
+					@include smallcaps();
+					&:before {
+						content: normal;
+						text-transform: none;
+					}
+				}
 			}
 		}
 		.footer {

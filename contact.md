@@ -1,6 +1,6 @@
 ---
 title: Find us
-description: The Fire and Lion team work from anywhere, but home is in Woodstock, Cape Town, South Africa. Email team@fireandlion.com or call +27 21 409 7000.
+description: The Fire and Lion team work, mostly, from Woodstock in Cape Town, South Africa. Email team@fireandlion.com or call +27 21 409 7000.
 ---
 
 # Find us

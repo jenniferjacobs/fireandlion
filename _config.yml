@@ -26,3 +26,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+      excerpt: "Through love, design and technology, Fire and Lion creates and delivers books and book projects for the multi-format world."
+
+# Create portfolio collection
+collections:
+  portfolio:
+    output: true
