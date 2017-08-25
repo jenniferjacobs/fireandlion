@@ -14,8 +14,16 @@ order: 2
 
 ![Lawful Living multi-format]({{ site.baseurl }}/images/lawfulliving_book-cover.jpg)
 
-So this book project included page design and typesetting as well as making the content, in its entirety, available as a responsive and mobile-friendly website.
+This book project included page design and typesetting as well as making the content, in its entirety, available as a responsive and mobile-friendly website.
 
-![Lawful Living social media]({{ site.baseurl }}/images/lawfulliving-social-media.jpg)
+We also created a bold identity for the *Lawful Living* brand, ensuring consistency across all media and communications. This included the design of a logo, book cover, stationery, a social media campaign, and print advertising.
 
-We also created a bold identity for the *Lawful Living* brand, ensuring consistency across all media and communications. This included the design of a logo, book cover, stationery, a social media campaign, and print advertising. 
+![Lawful Living social media]({{ site.baseurl }}/images/lawfulliving-social-media.jpg) 
+
+*Lawful Living* is now available as a series of smaller books which provide subject specific excerpts from the main book. Using our single-master workflow it was possible to output this child-series from the original book's master, without needing to create multiple versions containing repeat content. This system ensures that the book production is efficient, accurate and cost effective.
+
+The visual identity was successfully extended across the series, maintaining the strong design and branding of the original publication.
+
+![Lawful Living social media]({{ site.baseurl }}/images/lawfulliving-childseries.jpg)
+
+You can read *Lawful Living* [online](http://lawfulliving.co.za/) or purchase the [printed edition](http://lawfulliving.co.za/book/text/0-7-contact.html).
