@@ -20,9 +20,9 @@ We also created a bold identity for the *Lawful Living* brand, ensuring consiste
 
 ![Lawful Living social media]({{ site.baseurl }}/images/lawfulliving-social-media.jpg) 
 
-*Lawful Living* is now available as a series of smaller books which provide subject specific excerpts from the main book. Using our single-master workflow it was possible to output this child-series from the original book's master, without needing to create multiple versions containing repeat content. This system ensures that the book production is efficient, accurate and cost effective.
+*Lawful Living* is also available as a series of smaller books, which provide subject-specific excerpts from the main book. Using our single-master workflow we could output this child-series from the original book's source files without needing to create new, separate versions. This ensures that the book production is efficient, accurate and cost effective.
 
-The visual identity was successfully extended across the series, maintaining the strong design and branding of the original publication.
+The visual identity was successfully extended across the child series, maintaining the strong design and branding of the original publication.
 
 ![Lawful Living social media]({{ site.baseurl }}/images/lawfulliving-childseries.jpg)
 
