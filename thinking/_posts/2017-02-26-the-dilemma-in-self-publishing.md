@@ -1,6 +1,5 @@
 ---
 title: The dilemma in self-publishing
-category: thinking
 author: Arthur Attwell
 excerpt: What self-publishers miss is not skill, but the relationship between an author and a publisher.
 ---

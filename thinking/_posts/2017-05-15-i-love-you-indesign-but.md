@@ -1,7 +1,6 @@
 ---
 title: "I love you, InDesign, but it's time to let you go"
 excerpt: "I love you, InDesign, but it’s time to let you go. We just can’t be together in a multi-format world."
-category: thinking
 author: Arthur Attwell
 ---
 

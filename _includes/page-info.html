@@ -2,8 +2,16 @@
 
 <div id="page-info" class="page-info">
 
+{% comment %}Is this page in the 'thinking' category?{% endcomment %}
+{% for category in page.categories %}
+    {% if category == "thinking" %}
+        {% assign is-thinking = true %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
 {% comment %}For the blog, show author and date info{% endcomment %}
-{% if page.category contains "thinking" %}
+{% if is-thinking %}
     <p class="page-info-thinking">{{ page.author }}, {{ page.date | date: "%e %B %Y" }}</p>
 {% endif %}
 
