@@ -6,25 +6,25 @@ excerpt: "Very rarely, a book-maker gets to add new tricks to the 500-year-old c
 
 # Producing *The Economy* with the Electric Book workflow: a case study in multi-format book production
 
-I'm a book-maker, which basically means I turn Word documents and Powerpoint slides into books. To do it well, we draw on 500 years of book-making craft. And very rarely, we get to try to add something to that craft.
+I'm a book-maker, which, for the most part, means I turn Word documents and Powerpoint slides into books. These days, my team and I also turn them into websites and ebooks. To do it well, we draw on 500 years of book-making craft. And very rarely we try to add something to that craft.
 
-The CORE project has enabled us to do really exciting, perhaps pioneering, book-making work. This is a quick introduction to our approach. It touches on:
+The CORE project – specifically, the production of their textbook *The Economy* – has enabled us to do really exciting, perhaps pioneering, book-making work. This is a quick introduction to our approach. It touches on:
 
-1. the relationship between print and digital
-2. the challenge of publishing to print and the web simultaneously
-3. how we've tackled that challenge
-4. what we can offer students as a result, and
-5. what our next steps might be.
+1. [the relationship between print and digital](#the-relationship-between-print-and-digital)
+2. [the challenge of publishing to print and the web simultaneously](#publishing-to-print-and-web-simultaneously)
+3. [how we've tackled that challenge](#the-electric-book-workflow)
+4. [what we can offer students as a result](#what-we-can-offer-students), and
+5. [what our next steps might be](#next-steps).
 
 ## The relationship between print and digital
 
 For over fifteen years, book-makers like me have been pulled in two directions: you're a print person or you're a digital person. This is largely a practical matter: the skills and tools for each have been completely different. Which meant the workflows for creating each format were completely different, as were their distribution channels. In most publishing companies, digital teams are still separated from print-production teams, and often this separation breeds in each team a measure of suspicion and anxiety about the other.
 
-So the practical matter of skills has framed the evolution of publishing as 'print vs digital', when of course the conversation should be about print *and* digital. Not just because we're stuck with a multiformat world whether we like it or not, but because print and digital formats are symbiotic. In ambitious book projects, especially where we want book to have a social impact, neither can be successful without the other.
+So the practical matter of skills has framed the evolution of publishing as 'print vs digital', when of course the conversation should be about print *and* digital. Not just because we're stuck with a multiformat world whether we like it or not, but because print and digital formats are symbiotic. In ambitious book projects, especially where we want a book to have a social impact, neither can be successful without the other.
 
 Print books generate instant credibility. They carry a sense of permanence and authority that digital formats cannot muster.
 
-First, notice how print books have remained ad-free in an age when every other available surface carries advertising – something about print books has kept them immune from the disease of advertising. Libraries, despite their own digital transformation, still stand revered as churches to printed books. In a Wikipedian world, we're nostalgic about being able to cite the printed Britannica. And notice how experts only become thought-leaders when they can talk about their latest book, which only means anything if you can buy it in paper.
+Notice how print books have remained ad-free in an age when every other available surface carries advertising – something about print books has kept them immune from the disease of advertising. Libraries, despite their own digital transformation, still stand revered as churches to printed books. In a Wikipedian world, we're nostalgic about being able to cite the printed Britannica. And notice how experts only become thought-leaders when they can talk about their latest book, which only means anything if you can buy it in paper.
 
 But print does not scale, and it's locked into a funding model where the end-user pays for every copy.
 
