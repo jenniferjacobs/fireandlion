@@ -104,7 +104,7 @@ To convert our content to print-ready PDF, we use PrinceXML. Prince is the only 
 
 ### Online editing
 
-To get all these tools working on your own computer, you have to be quite technical. So we've built an online interface that runs them all for you on a server, behind the scenes. This is the [Electric Book Manager](http://github.com/electricbookworks/electric-book).
+To get all these tools working on your own computer, you have to be quite technical. So we've built an online interface that runs them all for you on a server, behind the scenes. This is the [Electric Book Manager](http://manage.electricbook.works).
 
 It stores your content in your own GitHub account. When you log in, it fetches your files from GitHub, and lets you edit them online, download a PDF version of the book you're working on, and generate a website preview of it. Since it's all built on top of Git, contributors can collaborate by editing their own versions of the book and submitting their changes to a managing editor for inclusion in the master version.
 
