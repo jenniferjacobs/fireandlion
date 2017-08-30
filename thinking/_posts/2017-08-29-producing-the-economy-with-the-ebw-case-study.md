@@ -40,11 +40,11 @@ For most book-makers like me, who make print and digital publications, this has 
 
 This is an expensive process, often done by teams of glorified copy-pasters. And since most books need to be corrected and updated after a short time, everything must be done twice, and version control between the formats is  error-prone.
 
-Clearly the holy grail for book-production workflows is to produce all formats from one master source. Many teams have tackled this challenge. Big incumbents like Adobe have tried valiantly to extend their print-production tools to produce ready-to-use digital formats, but their roots in page design are too deep to make this simple or scalable. And, given the nature of the web and the high costs of developing software, digital workflows based on proprietary software don't spread or become standards.
+Clearly the holy grail for book-production workflows is to produce all formats from one source simultaneously. Many teams have tackled this challenge. Big incumbents like Adobe have tried valiantly to extend their print-production tools to produce ready-to-use digital formats, but their roots in page design are too deep to make this simple or scalable. And, given the nature of the web and the high costs of developing software, digital workflows based on proprietary software don't spread or become standards.
 
 For print-and-digital book production to grow we need open-source tools that produce high-end, print-ready files and sensible websites. With the CORE project, we are right at the frontier.
 
-There are other great teams doing similar work: [PressBooks](https://github.com/pressbooks/pressbooks) uses a Wordpress backend for online book and website development. [Booktype](https://github.com/sourcefabric/Booktype), which has been around for a long time, also uses a browser-based editing workflow to produce HTML and PDF books. [PubSweet](https://gitlab.coko.foundation/pubsweet) is developing a modular editorial workflow, optimised, for now, for journals and monographs. The [MagicBook project](https://github.com/magicbookproject/magicbook) is being used at New York University. And our [Electric Book workflow](http://electricbook.works) uses on- and offline static site generation to make print and digital books.
+There are other great teams doing similar work: [PressBooks](https://github.com/pressbooks/pressbooks) uses a Wordpress backend for online book and website development. [Booktype](https://github.com/sourcefabric/Booktype), which has been around for a long time, also uses a browser-based editing workflow to produce HTML and PDF books. [PubSweet](https://gitlab.coko.foundation/pubsweet) is developing a modular editorial workflow, optimised, for now, for journals and monographs. The [MagicBook project](https://github.com/magicbookproject/magicbook) is being used at New York University. And our [Electric Book workflow](http://electricbook.works) uses on- and offline static-site generation to make print and digital books.
 
 The CORE project contributed immensely to the development of the Electric Book workflow, which comprises the Electric Book template, the Electric Book Manager (an online interface), and a process for book-production teams.
 
@@ -52,7 +52,7 @@ The CORE project contributed immensely to the development of the Electric Book w
 
 The [Electric Book workflow](http://electricbook.works) is a process and a curated set of established, open-source tools. Our aim has always been to develop as little new software as possible, so that we can move quickly and benefit from established software communities.
 
-Time was critical, of course, because we had only ten months to replace and extend functionality CORE was using with Inkling, a seven-year-old, multi-million-dollar Silicon Valley product.
+Time was critical, of course, because we had only ten months to replace and extend the functionality that CORE was using with Inkling, a seven-year-old, multi-million-dollar Silicon Valley product.
 
 We had already spent over two years developing our workflow, so we had covered a lot of ground already, but it needed a lot of extending to work for something as big and complex as CORE.
 
@@ -72,17 +72,15 @@ The HTML we get from markdown needs to be structured with templates for features
 
 Our print and screen page designs are all written in Sass, which Jekyll turns into CSS. The biggest advantage of Sass is that it lets us design with variables and templates that we can change at any time, and see those changes echoed throughout the book.
 
-For instance, each of the capstone chapters in the CORE book have a dedicated colour, which is applied to all kinds of design features in those chapters. With Sass, can change those colours in one place.
+For instance, during production and after first page proofs, we had to change the page size. If we'd been laying out the book in InDesign, this would have been an impossibly huge task. With well-constructed Sass, we could plug in the new page size and have our design features automatically adjust accordingly: sidebar elements, boxes, figures, running heads, and more.
 
-At one point during production, we had to change the page size. If we'd been laying out the book in InDesign, this would have been an impossibly huge task. With well-constructed Sass, we could plug in the new page size and have our design features automatically adjust accordingly: sidebar elements, boxes, figures, running heads, and more.
-
-Writing the Sass for the print edition – several thousands lines of code – was a major part of our work on this project, and several of the techniques we used deserve their own write-up. The result is a system that does almost all of the work of a traditional typesetter automatically.
+Writing the Sass for the print edition – several thousand lines of code – was a major part of our work on this project, and several of the techniques we used deserve their own write-up. The result is a system that does almost all of the work of a traditional typesetter automatically.
 
 ### Version control
 
-The bigger the book, the more important it is that everyone knows where the master version is, and what version they're working on. (Who hasn't received a email attachment named 'final final.docx'?) It can also become important to look back through a project's history, or even roll back to earlier points in time.
+The bigger the book, the more important it is that everyone knows where the master version is, and what version they're working on. (Who hasn't received an email attachment named `final final.docx`?) It can also become important to look back through a project's history, or even roll back to earlier points in time.
 
-For version-control, we use Git, which is the most popular version-control system for software development. This means we can store everything on GitHub, a major cloud-based host for Git-based projects like ours.
+For version control, we use Git, which is the most popular version-control system for software development. This means we can store everything on GitHub, a major cloud-based host for Git-based projects like ours.
 
 Git lets any contributor work on their own copy of the book, and then submit changes to the master version for review by a managing editor. The master repository then keeps a history of every change that has ever been made to the book. At the time I wrote this, the CORE repository included over 3800 commits, each one a snapshot of the project at a point in time, with a label describing the changes made and who contributed them.
 
