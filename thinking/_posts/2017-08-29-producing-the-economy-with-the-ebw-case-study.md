@@ -58,6 +58,8 @@ We had already spent over two years developing our workflow, so we had covered a
 
 In the next few sections, I'll cover the technologies we used to build it. If you're not interested in that, skip a few headings to ['What we can offer students'](#what-we-can-offer-students).
 
+We also talk more broadly about the design of *The Economy* [in our Portfolio]({{ site.baseurl }}/portfolio/core).
+
 ### Editing
 
 For our editing interface, we chose markdown – specifically a flavour of markdown called kramdown. Since markdown is just plain text, this allowed us to produce well-structured HTML without needing editing software. Offline or online, any plain-text editor just works, where editing software would have incurred development costs and usually forces users to work online only.
