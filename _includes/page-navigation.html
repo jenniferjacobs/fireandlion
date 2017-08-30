@@ -15,7 +15,7 @@ add links to the next and previous posts.{% endcomment %}
                     {% if page.previous.url and page.previous.categories contains "thinking" %}
                         <a href="{{ site.baseurl }}{{ page.previous.url }}">
                             <span class="previous-arrow">←</span>
-                            <span class="previous-title">{{ page.previous.title }}</span>
+                            <span class="previous-title">{{ page.previous.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
                         </a>
                     {% endif %}
                 </div>
@@ -23,7 +23,7 @@ add links to the next and previous posts.{% endcomment %}
                 <div class="next">
                     {% if page.next.url and page.next.categories contains "thinking" %}
                         <a href="{{ site.baseurl }}{{page.next.url}}">
-                            <span class="next-title">{{ page.next.title }}</span>
+                            <span class="next-title">{{ page.next.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
                             <span class="next-arrow">→</span>
                         </a>
                     {% endif %}
