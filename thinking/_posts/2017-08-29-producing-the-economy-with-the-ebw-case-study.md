@@ -88,7 +88,7 @@ One major advantage of using Git is that we could have several people working on
 
 ### Maths
 
-Maths is notorously tricky to typeset, and many production teams resort to placing images of maths rather than using editable text, or to using expensive maths plugins in InDesign. To create maths, we use MathJax, a free, open-source service that lets us use LaTeX in our markdown.
+Maths is notoriously tricky to typeset, and many production teams resort to placing images of maths rather than using editable text, or to using expensive maths plugins in InDesign. To create maths, we use MathJax, a free, open-source service that lets us use LaTeX in our markdown.
 
 To get maths in our print PDFs, we use PhantomJS to transform the math markup into something our PDF converter can handle.
 
