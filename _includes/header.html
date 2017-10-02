@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 <head>
-	<title>{{ site.data.settings.name }}: {{ page.title }}</title>
+	<title>{{ site.data.settings.name }}: {{ page.title | markdownify | strip_html }}</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
-	<meta property="og:title" content="{{ site.data.settings.name }}: {{ page.title }}" />
+	<meta property="og:title" content="{{ site.data.settings.name }}: {{ page.title | markdownify | strip_html }}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{{ site.data.settings.url }}{{ page.url }}" />
 	<meta property="og:image" content="{{ site.data.settings.url }}/images/{% if page.image %}{{ page.image }}{% else %}{{ site.data.settings.image }}{% endif %}" />

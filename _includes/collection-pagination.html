@@ -40,23 +40,27 @@ and https://gist.github.com/johnfmorton/6c395361d259b23409ee6559fd909d5c{% endco
 <div class="previous">
     {% if prevurl %}
         <a href="{{ site.baseurl}}{{ prevurl }}">
-        <span class="previous-arrow">←</span>
-        <span class="previous-title">{{ prevtitle l}}</a>
+            <span class="previous-arrow">←</span>
+            <span class="previous-title">{{ prevtitle | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+        </a>
     {% else %}
         <a href="{{ site.baseurl}}{{ lasturl }}" class="prev">
-        <span class="previous-arrow">←</span>
-        <span class="previous-title">{{ lasttitle l}}</a>
+            <span class="previous-arrow">←</span>
+            <span class="previous-title">{{ lasttitle | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+        </a>
     {% endif %}
 </div>
 
 <div class="next">
     {% if nexturl %}
         <a href="{{ site.baseurl}}{{ nexturl }}">
-        <span class="next-title">{{ nexttitle }}</a></span>
-        <span class="next-arrow">→</span>
+            <span class="next-title">{{ nexttitle | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+            <span class="next-arrow">→</span>
+        </a>
     {% else %}
         <a href="{{ site.baseurl}}{{ firsturl }}" class="prev">
-        <span class="next-title">{{ firsttitle l}}</a></span>
-        <span class="next-arrow">→</span>
+            <span class="next-title">{{ firsttitle | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+            <span class="next-arrow">→</span>
+        </a>
     {% endif %}
 </div>

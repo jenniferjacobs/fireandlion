@@ -10,7 +10,7 @@ order: 1
 
 ![The Economy]({{ site.baseurl }}/images/core-feature.jpg)
 
-*The Economy* is an economics textbook leading the way in educational reform, published as an open-access website from the CORE project and as a printed edition from Oxford University Press. Its multi-format design changes the way textbooks are produced. Over 1200 pages long and containing over 1300 images and 230 interactive questions, it breaks boundaries of what is possible in multi-format publishing. To produce this huge book in under ten months – from copy-editing to print-ready pages and a live website edition – we used our open-source Electric Book workflow. This workflow lets multiple editors and designers work on the book simultaneously, editing version-controlled, single-master content files, and seeing their changes instantly in both print-PDF and website versions. 
+*The Economy* is an economics textbook leading the way in educational reform, published as an open-access website from [the CORE project](http://core-econ.org) and as a printed edition from Oxford University Press. Its multi-format design changes the way textbooks are produced. Over 1200 pages long and containing over 1300 images and 230 interactive questions, it breaks boundaries of what is possible in multi-format publishing. To produce this huge book in under ten months – from copy-editing to print-ready pages and a live website edition – we used our open-source Electric Book workflow. This workflow lets multiple editors and designers work on the book simultaneously, editing version-controlled, single-master content files, and seeing their changes instantly in both print-PDF and website versions.
 
 This method of book production streamlines the publishing process in revolutionary ways. Most importantly, the workflow lets us output print-ready files, a mobile-friendly website and an ebook from the same master files. So there is no need for time-consuming conversions. And after publication, our clients can also continue to make changes to the content directly online, and release new updates of their book at any time.
 
@@ -29,3 +29,5 @@ The website edition of the book makes more than the print-edition can of the dig
 ![The Economy mobile]({{ site.baseurl }}/images/core_mobile.jpg)
 
 You can read *The Economy* [online](http://core-econ.org/the-economy) or purchase the [printed edition](https://global.oup.com/academic/product/the-economy-9780198810247?lang=en&cc=gb).
+
+Arthur Attwell explains more about [how we did this]({{ site.baseurl }}/thinking/2017/08/29/producing-the-economy-with-the-ebw-case-study/) in our Thinking section.

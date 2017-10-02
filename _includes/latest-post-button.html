@@ -1,0 +1,18 @@
+{% capture html %}
+
+{% comment %}Shows a button linking to the latest post{% endcomment %}
+
+{% comment %}Get the latest post's URL{% endcomment %}
+{% assign latest-post-link = site.posts.first.url %}
+
+{% comment %}Set the button text to use{% endcomment %}
+{% capture text %}New thinking{% endcapture %}
+{% if include.text %}
+    {% capture text %}{{ include.text }}{% endcapture %}
+{% endif %}
+
+{% comment %}Create HTML{% endcomment %}
+<a class="button" href="{{ site.baseurl }}{{ latest-post-link }}">{{ text }}</a>
+
+{% endcapture %}
+{{ html | remove: '<p>' | remove: '</p>' | strip_newlines }}

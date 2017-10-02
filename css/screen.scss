@@ -23,7 +23,7 @@ $sidebar-width: 10em;
 $font-main: "Crimson Text", serif; // https://fonts.google.com/specimen/Crimson+Text
 $font-secondary: "Josefin Sans", sans-serif; // https://fonts.google.com/specimen/Josefin+Sans
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Josefin+Sans:600&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Josefin+Sans:600&subset=latin-ext');
 
 // Palette
 $dark: #000000;
@@ -184,13 +184,12 @@ body {
 	font-style: italic;
     font-size: 0.9em;
 	letter-spacing: 0.01em;
-	padding: 0 2em;
+	// padding: 0 2em;
 	a {
 		text-decoration: none;
 		color: inherit;
 		display: inline-flex;
 		border-bottom: 1px dashed $light; // to occupy space to be taken up on hover
-		max-width: calc(100% - 2em); // leaves space for arrow
 		& span:hover {
 			border-bottom: 1px dashed $dark;
 		}
@@ -207,10 +206,12 @@ body {
 	    margin: auto;
 		.previous {
 			width: 50%;
+			padding-right: 0.5em;
 		}
 		.next {
 			width: 50%;
 			text-align: right;
+			padding-left: 0.5em;
 		}
 		.previous-arrow {
 			font-style: normal;
@@ -496,6 +497,18 @@ td {
 	}
 }
 
+// Team bios
+
+.bio {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	img {
+		max-width: 5em;
+		float: right;
+		margin-top: -1em;
+	}
+}
+
 // This for Windows (see https://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/)
 @viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
@@ -597,3 +610,31 @@ td {
 			margin: 0 0 0 ($sidebar-width + 4em);
 		}
 	}
+
+@media print { 
+	.sidebar {
+		background-color: white;
+		.name {
+			color: black;
+			font-size: 2em;
+		}
+		.nav-list {
+			display: none;
+		}
+	}
+	.footer {
+		display: none;
+	}
+	.post-excerpt-text-more {
+		display: none!important; // overrides more specific inline-block
+	}
+	a {
+		border-color: transparent!important; // overrides more specific inline-block
+		&.button {
+			display: none;
+		}
+	}
+	#markdown-toc {
+		display: none;
+	}
+}
